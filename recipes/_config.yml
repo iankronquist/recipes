@@ -1,0 +1,18 @@
+# Site settings
+title: Recipes
+email: wyman.lucy@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+baseurl:
+url: 
+twitter_username: 
+github_username: lucywyman
+source: .
+destination: ./site
+layouts: ./layouts
+data_source: ./data
+
+
+
+# Build settings
+markdown: kramdown
+
