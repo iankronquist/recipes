@@ -1,8 +1,10 @@
-Baked Brie with Apple and Caramelized Onions
-============================================
-:time: 60 minutes
-:from: http://allrecipes.com/recipe/baked-brie-with-caramelized-onions/
-It may sound weird, but it's soooooo good
+---
+layout: recipe
+title: Baked Brie with Apples and Carmelized Onions
+category: Snacks
+time: 60 minutes
+from: http://allrecipes.com/recipe/baked-brie-with-caramelized-onions/
+---
 
 Ingredients
 -----------
@@ -12,7 +14,10 @@ Ingredients
 * 1 apple, sliced (we like honeycrisp)
 * 1 puff pastry sheet, thawed (you can get them at the store near the pie crusts or make your own)
 * 1 8oz round brie
+<br/>
 
+Directions
+----------
 0. Preheat oven to 400*
 1. Melt buter in a skillet over medium heat
 2. Add onions and apple, and cook until tender and brown

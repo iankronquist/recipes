@@ -1,7 +1,9 @@
-Buckeye Balls
-=============
-
-Total time: 10 minutes
+---
+layout: recipe
+title: Buckeye Balls
+category: cookies
+time: 10 minutes
+---
 
 Ingredients:
 ------------

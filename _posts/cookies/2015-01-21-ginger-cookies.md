@@ -1,7 +1,10 @@
-Ginger Cookies
-==============
-
-Total time: 20 minutes
+---
+layout: recipe
+title: Ginger Cookies
+category: Cookies
+from: 
+time: 20 minutes
+---
 
 Ingredients:
 ------------
@@ -19,6 +22,10 @@ Ingredients:
 * 1/4 cup molasses
 * 2 tbsp white sugar
 * 2 tbsp cinnamon
+<br>
+
+Directions:
+-----------
 
 1. Preheat oven to 350* F.
 2. In a medium bowl stir together flour, ginger, baking soda, cinnamon, cloves, and salt.

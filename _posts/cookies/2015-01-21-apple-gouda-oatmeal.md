@@ -1,7 +1,9 @@
-Apple Gouda Oatmeal Cookies
-===========================
-
-Total time: 40 minutes
+---
+layout: recipe
+title: Apple Gouda Oatmeal cookies
+category: Cookies
+time: 40 minutes
+---
 
 Ingredients:
 ------------
@@ -17,6 +19,10 @@ Ingredients:
 * 1 1/2 cups old-fashioned oats
 * 1 medium-sized apple (about 10 ounces)
 * 4 ounces Gouda cheese, finely chopped (about 1 cup)
+<br>
+
+Directions:
+-----------
 
 1. Preheat the oven to 375°F. 
 2. Whisk the olive oil and egg together in a glass measuring cup until completely combined. 

@@ -1,7 +1,10 @@
-Earl Grey Tea Cookies
-=====================
-
-Total time: 20 - 30 minutes
+---
+layout: recipe
+title: Earl Grey Tea Cookies
+category: Cookies
+from: 
+time: 20 minutes
+---
 
 Ingredients:
 ------------
@@ -14,6 +17,10 @@ Ingredients:
 * 1/2 tsp vanilla
 * 1 tsp water
 * 1/2 cup unsalted butter
+<br>
+
+Directions:
+-----------
 
 1. Preheat oven to 375* F
 2. Blend flour, both sugars, tea leaves, and salt in food-processor or blender until tea leaves are finely ground

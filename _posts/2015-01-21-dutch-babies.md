@@ -1,7 +1,11 @@
-Kronquist Dutch Babies
-======================
-:time: 30 minutes
-:from: Our kitchen
+---
+layout: recipe
+title: Kronquist Dutch Babies
+category: Breakfasts
+time: 30 minutes
+from: Our kitchen
+---
+
 Ingredients:
 ------------
 
@@ -10,6 +14,9 @@ Ingredients:
 * 1 cup milk
 * 1 cup flour
 
+<br>
+Directions:
+-----------
 1. Preheat oven to 400*
 2. Put butter in a large, slope-sided pan, and stick the whole thing in the oven to melt while preheating (don't let the butter burn!)
 3. Swish melted butter around pan to grease.

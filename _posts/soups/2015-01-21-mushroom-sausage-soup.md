@@ -1,7 +1,10 @@
-Mushroom Sausage Soup
-=====================
-:time: 5 1/2 hours
-:from: All recipes magazine
+---
+layout: recipe
+title: Mushroom Sausage Soup
+category: Soups
+from: 
+time: 5 1/2 hours
+---
 
 Ingredients:
 ------------
@@ -17,6 +20,11 @@ Ingredients:
 * 6 ish cups chicken stock
 * 1 tsp salt
 * 1 tsp pepper
+
+<br>
+
+Directions:
+-----------
 
 1. Cut sausage into chunks (1 cubic inch) and cook over medium-high heat.  Once it's done cooking, add vinegar.
 2. Meanwhile, put the rest of the ingredients into crock pot.

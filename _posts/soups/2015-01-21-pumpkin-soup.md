@@ -1,7 +1,10 @@
-Creamy Pumpkin Soup
-===================
-:time: 45 minuts
-:from: http://www.thecomfortofcooking.com/2012/12/creamy-pumpkin-soup.html
+---
+layout: recipe
+title: Creamy Pumpkin Soup
+category: Soups
+from: http://www.thecomfortofcooking.com/2012/12/creamy-pumpkin-soup.html
+time: 45 minutes
+---
 
 Ingredients:
 ------------
@@ -18,6 +21,11 @@ Ingredients:
 * 1 cup (whole) milk
 * 1/4 cup butter
 * Parmesan (for garnish)
+
+<br>
+
+Directions:
+-----------
 
 1. In a large pot, combine everything but parmesan and milk.
 2. Bring to boil

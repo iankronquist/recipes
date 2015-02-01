@@ -1,7 +1,9 @@
-Chai Tea Cookies
-================
-
-Total time: 30 minutes
+---
+layout: recipe
+title: Chai Tea Cookies
+category: Cookies
+time: 30 minutes
+---
 
 Ingredients:
 ------------
@@ -16,6 +18,10 @@ Ingredients:
 * 1/4 teaspoon salt
 * 1 teaspoon vanilla extract
 * 3/4 cup powdered sugar, sifted
+<br>
+
+Directions:
+-----------
 
 1. Preheat oven to 350°F. 
 2. Beat butter with granulated sugar in a medium bowl until well blended. 

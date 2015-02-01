@@ -1,9 +1,13 @@
-Chicken and Rice Soup
-=====================
-:time: 4 1/2 hours
-:from: All recipes magazine
+---
+layout: recipe
+title: Chicken and Rice Soup
+category: Soups
+from: All recipes magazine
+time: 4 1/2 hours
+---
 
 Ingredients:
+------------
 
 * Two large carrots, peeled and diced.
 * 4 ribs celery, sliced
@@ -17,6 +21,11 @@ Ingredients:
 * A pinch of dill
 * Another pinch of salt
 * 2/3 cup brown rice
+
+<br>
+
+Directions:
+-----------
 
 1. Place carrots, celery, onion, thyme, cloves, pepper and salt into the slow cooker. 
 2. Put chicken on top, leaving breasts whole, and pour chicken stock and water over them.

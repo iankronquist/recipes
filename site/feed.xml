@@ -5,17 +5,13 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Jan 2015 21:51:38 -0800</pubDate>
-    <lastBuildDate>Fri, 30 Jan 2015 21:51:38 -0800</lastBuildDate>
+    <pubDate>Sat, 31 Jan 2015 18:46:39 -0800</pubDate>
+    <lastBuildDate>Sat, 31 Jan 2015 18:46:39 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Stir Fry</title>
-        <description>&lt;h1 id=&quot;chicken-stir-fry&quot;&gt;Chicken Stir-fry&lt;/h1&gt;
-&lt;p&gt;:time: 20 
-:from: Our kitchen&lt;/p&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
+        <title>Chicken Stir-fry</title>
+        <description>&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;1 lb. Chicken&lt;/li&gt;
   &lt;li&gt;2-3 head of broccoli&lt;/li&gt;
@@ -40,6 +36,10 @@ We just cut them into chunks.&lt;/li&gt;
   &lt;li&gt;Hoisin sauce&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;directions&quot;&gt;Directions:&lt;/h2&gt;
+
 &lt;ol&gt;
   &lt;li&gt;Cut the chicken into bite-sized chunks, dice the onion and broccoli, and cut up your carrots as desired (as well as any other veggies you’d like to use!  Bell peppers are nice).&lt;/li&gt;
   &lt;li&gt;Heat large skillet or wok on the stove, with vegetable oil in it, to medium-high heat.&lt;/li&gt;
@@ -52,19 +52,17 @@ We just cut them into chunks.&lt;/li&gt;
 &lt;p&gt;Best served over rice or with toast.  Or both over rice AND with toast.  Whatever floats your boat.&lt;/p&gt;
 </description>
         <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/2015/01/21/stir-fry.html</link>
-        <guid isPermaLink="true">/2015/01/21/stir-fry.html</guid>
+        <link>/dinners/2015/01/21/stir-fry.html</link>
+        <guid isPermaLink="true">/dinners/2015/01/21/stir-fry.html</guid>
         
+        
+        <category>dinners</category>
         
       </item>
     
       <item>
-        <title>Pumpkin Soup</title>
-        <description>&lt;h1 id=&quot;creamy-pumpkin-soup&quot;&gt;Creamy Pumpkin Soup&lt;/h1&gt;
-&lt;p&gt;:time: 45 minuts
-:from: http://www.thecomfortofcooking.com/2012/12/creamy-pumpkin-soup.html&lt;/p&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
+        <title>Creamy Pumpkin Soup</title>
+        <description>&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;3 cups chicken broth&lt;/li&gt;
@@ -81,6 +79,10 @@ We just cut them into chunks.&lt;/li&gt;
   &lt;li&gt;Parmesan (for garnish)&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;directions&quot;&gt;Directions:&lt;/h2&gt;
+
 &lt;ol&gt;
   &lt;li&gt;In a large pot, combine everything but parmesan and milk.&lt;/li&gt;
   &lt;li&gt;Bring to boil&lt;/li&gt;
@@ -90,17 +92,17 @@ We just cut them into chunks.&lt;/li&gt;
 
 </description>
         <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/2015/01/21/pumpkin-soup.html</link>
-        <guid isPermaLink="true">/2015/01/21/pumpkin-soup.html</guid>
+        <link>/soups/2015/01/21/pumpkin-soup.html</link>
+        <guid isPermaLink="true">/soups/2015/01/21/pumpkin-soup.html</guid>
         
+        
+        <category>soups</category>
         
       </item>
     
       <item>
         <title>Pumpkin Bread</title>
-        <description>&lt;h1 id=&quot;pumpkin-bread&quot;&gt;Pumpkin Bread&lt;/h1&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;1¾ cup white whole wheat flour&lt;/li&gt;
@@ -123,7 +125,9 @@ We just cut them into chunks.&lt;/li&gt;
   &lt;li&gt;3 tablespoons pepitas, roasted and salted (or roasted and not salt, up to you)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;instructions&quot;&gt;Instructions:&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;directions&quot;&gt;Directions:&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Position a rack in the lower third of the oven and preheat the oven to 350 degrees F. &lt;/li&gt;
@@ -141,32 +145,17 @@ We just cut them into chunks.&lt;/li&gt;
 
 </description>
         <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/2015/01/21/pumpkin-bread.html</link>
-        <guid isPermaLink="true">/2015/01/21/pumpkin-bread.html</guid>
+        <link>/snacks/2015/01/21/pumpkin-bread.html</link>
+        <guid isPermaLink="true">/snacks/2015/01/21/pumpkin-bread.html</guid>
         
         
-      </item>
-    
-      <item>
-        <title>Peanut Butter</title>
-        <description>&lt;h1 id=&quot;peanut-butter-cookies&quot;&gt;Peanut-Butter Cookies&lt;/h1&gt;
-
-&lt;p&gt;Total time: &lt;/p&gt;
-</description>
-        <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/2015/01/21/peanut-butter.html</link>
-        <guid isPermaLink="true">/2015/01/21/peanut-butter.html</guid>
-        
+        <category>snacks</category>
         
       </item>
     
       <item>
-        <title>Orange Cardamom</title>
-        <description>&lt;h1 id=&quot;orange-cardamom-cookies&quot;&gt;Orange Cardamom Cookies&lt;/h1&gt;
-
-&lt;p&gt;Total time: 3 1/2 hours&lt;/p&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
+        <title>Orange Cardamom Cookies</title>
+        <description>&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;2 1/2 cups all-purpose flour&lt;/li&gt;
@@ -178,6 +167,10 @@ We just cut them into chunks.&lt;/li&gt;
   &lt;li&gt;1 large egg yolk&lt;/li&gt;
   &lt;li&gt;2 tablespoons heavy cream&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;directions&quot;&gt;Directions:&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Whisk together flour, zest, cardamom, and salt.&lt;/li&gt;
@@ -206,19 +199,17 @@ We just cut them into chunks.&lt;/li&gt;
 
 </description>
         <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/2015/01/21/orange-cardamom.html</link>
-        <guid isPermaLink="true">/2015/01/21/orange-cardamom.html</guid>
+        <link>/cookies/2015/01/21/orange-cardamom.html</link>
+        <guid isPermaLink="true">/cookies/2015/01/21/orange-cardamom.html</guid>
         
+        
+        <category>cookies</category>
         
       </item>
     
       <item>
         <title>Mushroom Sausage Soup</title>
-        <description>&lt;h1 id=&quot;mushroom-sausage-soup&quot;&gt;Mushroom Sausage Soup&lt;/h1&gt;
-&lt;p&gt;:time: 5 1/2 hours
-:from: All recipes magazine&lt;/p&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Sausage of any kind&lt;/li&gt;
@@ -234,6 +225,10 @@ We just cut them into chunks.&lt;/li&gt;
   &lt;li&gt;1 tsp pepper&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;directions&quot;&gt;Directions:&lt;/h2&gt;
+
 &lt;ol&gt;
   &lt;li&gt;Cut sausage into chunks (1 cubic inch) and cook over medium-high heat.  Once it’s done cooking, add vinegar.&lt;/li&gt;
   &lt;li&gt;Meanwhile, put the rest of the ingredients into crock pot.&lt;/li&gt;
@@ -242,17 +237,17 @@ We just cut them into chunks.&lt;/li&gt;
 
 </description>
         <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/2015/01/21/mushroom-sausage-soup.html</link>
-        <guid isPermaLink="true">/2015/01/21/mushroom-sausage-soup.html</guid>
+        <link>/soups/2015/01/21/mushroom-sausage-soup.html</link>
+        <guid isPermaLink="true">/soups/2015/01/21/mushroom-sausage-soup.html</guid>
         
+        
+        <category>soups</category>
         
       </item>
     
       <item>
-        <title>Granola</title>
-        <description>&lt;h1 id=&quot;carols-granola&quot;&gt;Carol’s Granola&lt;/h1&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
+        <title>MDW Granola</title>
+        <description>&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;10c oats&lt;/li&gt;
   &lt;li&gt;1t salt&lt;/li&gt;
@@ -270,6 +265,10 @@ We just cut them into chunks.&lt;/li&gt;
 
 &lt;p&gt;Nuts and fruits may be added or substituted to taste.&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;
+Directions:
+———–&lt;/p&gt;
+
 &lt;h2 id=&quot;instructions&quot;&gt;Instructions:&lt;/h2&gt;
 &lt;p&gt;Bake at 325 degrees for 20 minutes. Add 1c pecans
 and 2c walnuts. Mix. Bake for another 30 minutes,
@@ -277,19 +276,17 @@ stirring every 10 minutes. Add dried blueberries,
 dried cranberries, dried cherries, and dried mango.&lt;/p&gt;
 </description>
         <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/2015/01/21/granola.html</link>
-        <guid isPermaLink="true">/2015/01/21/granola.html</guid>
+        <link>/snacks/2015/01/21/granola.html</link>
+        <guid isPermaLink="true">/snacks/2015/01/21/granola.html</guid>
         
+        
+        <category>snacks</category>
         
       </item>
     
       <item>
         <title>Ginger Cookies</title>
-        <description>&lt;h1 id=&quot;ginger-cookies&quot;&gt;Ginger Cookies&lt;/h1&gt;
-
-&lt;p&gt;Total time: 20 minutes&lt;/p&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;2 1/4 cups all-purpose flour&lt;/li&gt;
@@ -304,8 +301,11 @@ dried cranberries, dried cherries, and dried mango.&lt;/p&gt;
   &lt;li&gt;1 tbsp water&lt;/li&gt;
   &lt;li&gt;1/4 cup molasses&lt;/li&gt;
   &lt;li&gt;2 tbsp white sugar&lt;/li&gt;
-  &lt;li&gt;2 tbsp cinnamon&lt;/li&gt;
+  &lt;li&gt;2 tbsp cinnamon
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&quot;directions&quot;&gt;Directions:&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Preheat oven to 350* F.&lt;/li&gt;
@@ -334,19 +334,17 @@ dried cranberries, dried cherries, and dried mango.&lt;/p&gt;
 &lt;/ol&gt;
 </description>
         <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/2015/01/21/ginger-cookies.html</link>
-        <guid isPermaLink="true">/2015/01/21/ginger-cookies.html</guid>
+        <link>/cookies/2015/01/21/ginger-cookies.html</link>
+        <guid isPermaLink="true">/cookies/2015/01/21/ginger-cookies.html</guid>
         
+        
+        <category>cookies</category>
         
       </item>
     
       <item>
         <title>Earl Grey Tea Cookies</title>
-        <description>&lt;h1 id=&quot;earl-grey-tea-cookies&quot;&gt;Earl Grey Tea Cookies&lt;/h1&gt;
-
-&lt;p&gt;Total time: 20 - 30 minutes&lt;/p&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;1 cup all-purpose flour&lt;/li&gt;
@@ -356,8 +354,11 @@ dried cranberries, dried cherries, and dried mango.&lt;/p&gt;
   &lt;li&gt;1/4 tsp salt&lt;/li&gt;
   &lt;li&gt;1/2 tsp vanilla&lt;/li&gt;
   &lt;li&gt;1 tsp water&lt;/li&gt;
-  &lt;li&gt;1/2 cup unsalted butter&lt;/li&gt;
+  &lt;li&gt;1/2 cup unsalted butter
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&quot;directions&quot;&gt;Directions:&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Preheat oven to 375* F&lt;/li&gt;
@@ -383,19 +384,17 @@ dried cranberries, dried cherries, and dried mango.&lt;/p&gt;
 &lt;p&gt;Whisk together until you get the right texture! &lt;/p&gt;
 </description>
         <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/2015/01/21/earl-grey-tea-cookies.html</link>
-        <guid isPermaLink="true">/2015/01/21/earl-grey-tea-cookies.html</guid>
+        <link>/cookies/2015/01/21/earl-grey-tea-cookies.html</link>
+        <guid isPermaLink="true">/cookies/2015/01/21/earl-grey-tea-cookies.html</guid>
         
+        
+        <category>cookies</category>
         
       </item>
     
       <item>
-        <title>Dutch Babies</title>
-        <description>&lt;h1 id=&quot;kronquist-dutch-babies&quot;&gt;Kronquist Dutch Babies&lt;/h1&gt;
-&lt;p&gt;:time: 30 minutes
-:from: Our kitchen
-Ingredients:
-————&lt;/p&gt;
+        <title>Kronquist Dutch Babies</title>
+        <description>&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;1/3 cup of butter (maybe a little less)&lt;/li&gt;
@@ -404,20 +403,66 @@ Ingredients:
   &lt;li&gt;1 cup flour&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;br /&gt;
+Directions:
+———–
+1. Preheat oven to 400*
+2. Put butter in a large, slope-sided pan, and stick the whole thing in the oven to melt while preheating (don’t let the butter burn!)
+3. Swish melted butter around pan to grease.
+4. Meanwhile combine eggs and milk, whipping with electric mixer until frothy.&lt;br /&gt;
+5. Slowly add in flour, contuining to mix.
+6. Pour mixture into pan, and bake 20 minutes or until browned on top.
+7. Serve with cheese or lemon juice and powdered sugar (or whatever other yummy things you’d like to try!)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
+        <link>/breakfasts/2015/01/21/dutch-babies.html</link>
+        <guid isPermaLink="true">/breakfasts/2015/01/21/dutch-babies.html</guid>
+        
+        
+        <category>breakfasts</category>
+        
+      </item>
+    
+      <item>
+        <title>Creamy Dill Chicken Stew with Bowtie Pasta</title>
+        <description>&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2 1/2 lbs. boneless skinless chicken breast (we just use one breast of moderate size)&lt;/li&gt;
+  &lt;li&gt;1 can condensed cream of celery soup&lt;/li&gt;
+  &lt;li&gt;1 container cream cheese with chives and onions (it’s worth it, trust us)&lt;/li&gt;
+  &lt;li&gt;2 cups chicken stock&lt;/li&gt;
+  &lt;li&gt;1 container (1 lb?) white mushrooms, sliced&lt;/li&gt;
+  &lt;li&gt;3 tbsp dill&lt;/li&gt;
+  &lt;li&gt;3 tbsp parsley&lt;/li&gt;
+  &lt;li&gt;1 tsp black pepper&lt;/li&gt;
+  &lt;li&gt;1 tsp salt&lt;/li&gt;
+  &lt;li&gt;1 package bow-tie pasta&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;directions&quot;&gt;Directions:&lt;/h2&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;Preheat oven to 400*&lt;/li&gt;
-  &lt;li&gt;Put butter in a large, slope-sided pan, and stick the whole thing in the oven to melt while preheating (don’t let the butter burn!)&lt;/li&gt;
-  &lt;li&gt;Swish melted butter around pan to grease.&lt;/li&gt;
-  &lt;li&gt;Meanwhile combine eggs and milk, whipping with electric mixer until frothy.  &lt;/li&gt;
-  &lt;li&gt;Slowly add in flour, contuining to mix.&lt;/li&gt;
-  &lt;li&gt;Pour mixture into pan, and bake 20 minutes or until browned on top.&lt;/li&gt;
-  &lt;li&gt;Serve with cheese or lemon juice and powdered sugar (or whatever other yummy things you’d like to try!)&lt;/li&gt;
+  &lt;li&gt;Coat slow cooker with non-stick spray, set to low.&lt;/li&gt;
+  &lt;li&gt;Season chicken with salt and pepper and place (whole) into the slow cooker.&lt;/li&gt;
+  &lt;li&gt;In a medium-sized bowl, stir together cream of celery soup, cream cheese, broth and mushrooms.&lt;/li&gt;
+  &lt;li&gt;Pour over the chicken &lt;/li&gt;
+  &lt;li&gt;Cook on low for 6 hours.&lt;/li&gt;
+  &lt;li&gt;Remove chicken from slow-cooker and dice&lt;/li&gt;
+  &lt;li&gt;Stir in dill, parsley, and more pepper and salt to taste. &lt;/li&gt;
+  &lt;li&gt;Return chicken to slow cooker.&lt;/li&gt;
+  &lt;li&gt;Make pasta&lt;/li&gt;
+  &lt;li&gt;Eat.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/2015/01/21/dutch-babies.html</link>
-        <guid isPermaLink="true">/2015/01/21/dutch-babies.html</guid>
+        <link>/soups/2015/01/21/creamy-chicken-dill.html</link>
+        <guid isPermaLink="true">/soups/2015/01/21/creamy-chicken-dill.html</guid>
         
+        
+        <category>soups</category>
         
       </item>
     

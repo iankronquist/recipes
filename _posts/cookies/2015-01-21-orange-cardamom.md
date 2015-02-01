@@ -1,7 +1,10 @@
-Orange Cardamom Cookies
-=======================
-
-Total time: 3 1/2 hours
+---
+layout: recipe
+title: Orange Cardamom Cookies
+category: Cookies
+from: 
+time: 3 1/2 hours
+---
 
 Ingredients:
 ------------
@@ -15,6 +18,10 @@ Ingredients:
 * 1 large egg yolk
 * 2 tablespoons heavy cream
 
+<br>
+
+Directions:
+-----------
 
 1. Whisk together flour, zest, cardamom, and salt.
 2. Beat butter and sugar with an electric mixer until pale and fluffy, then beat in yolk and cream.

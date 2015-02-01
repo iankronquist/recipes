@@ -1,5 +1,10 @@
-Pumpkin Bread
-=============
+---
+layout: recipe
+title: Pumpkin Bread
+category: Snacks
+time: 90 minutes
+from: 
+---
 
 Ingredients:
 ------------
@@ -23,9 +28,10 @@ Ingredients:
 * ¼ cup apple cider, no sugar added*
 * 3 tablespoons pepitas, roasted and salted (or roasted and not salt, up to you)
 
+<br>
 
-Instructions:
--------------
+Directions:
+-----------
 
 1. Position a rack in the lower third of the oven and preheat the oven to 350 degrees F. 
 2. Spray a 9x5 inch loaf pan with non-stick cooking spray. Set aside.

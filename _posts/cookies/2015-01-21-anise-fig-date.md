@@ -1,7 +1,9 @@
-Anise-Scented Fig and Date Cookies
-==================================
-
-Total time: 6 hours
+---
+layout: recipe
+title: Anise-Scented Fig and Date Cookies
+category: Cookies
+time: 6 hours
+---
 
 Ingredients:
 ------------
@@ -20,6 +22,9 @@ Ingredients:
 * 1 tsp vanilla
 * 1 egg yolk
 * 1/4 cup granulated sugar
+<br>
+Directions:
+-----------
 
 1. In a blender purée figs and dates with water and 2 tablespoons refined sugar. 
 2. In a bowl, whisk together flour, anise, baking powder, baking soda, and salt. 

@@ -1,7 +1,10 @@
-Creamy Dill Chicken Stew with Pasta
-===================================
-:time: 6 1/2 hours
-:from: All recipes magazine
+---
+layout: recipe
+title: Creamy Dill Chicken Stew with Bowtie Pasta
+category: Soups
+from:
+time: 6 1/2 hours
+---
 Ingredients
 -----------
 
@@ -15,6 +18,11 @@ Ingredients
 * 1 tsp black pepper
 * 1 tsp salt
 * 1 package bow-tie pasta
+
+<br>
+
+Directions:
+-----------
 
 1. Coat slow cooker with non-stick spray, set to low.
 2. Season chicken with salt and pepper and place (whole) into the slow cooker.

@@ -4,231 +4,250 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/assets/jquery-1.11.2.js"></script>
 
   <title>Recipes</title>
   <meta name="description" content="">
 
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="canonical" href="/">
   <link rel="alternate" type="application/rss+xml" title="Recipes" href="/feed.xml" />
+
+  <script>
+$(document).ready(function(){  
+    $('ul li.expanded > a')
+    .attr('data-active','0')
+    .click(function(event){
+       $('.submuneu').hide();   
+        if($(this).attr('data-active')==0){
+            $(this).parent().find('ul').slideToggle('slow');
+            $(this).attr('data-active','1');
+        }
+        else{
+          $(this).parent().find('ul').slideToggle('slow');
+          $(this).attr('data-active','0');}
+        $('a.on').removeClass("active");
+        $(this).addClass("active");
+    });
+
+});
+</script>
 </head>
 
   <body>
-    <div class='menu'>
+    <div class='sidebar'>
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="/about">About Me</a></li>
-        <li><a href="/recipes">Recipes</a></li>
+    <li><a href="/">home</a></li>
+    <li><a href="/about">about me</a></li>
+    
+    
+      <li class='expanded'><a class='on' name="breakfasts">breakfasts <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
+        <ul class='submenu'>
+        
+          
+            <li><a href=""></a></li>
+          
+        
+          
+            <li><a href="/breakfasts/2015/01/21/dutch-babies.html">Kronquist Dutch Babies</a></li>
+          
+            <li><a href="/breakfasts/2015/01/21/asparagus-onion-gruyere-quiche.html">Gruyere Quiche with Asparagus and Onion</a></li>
+          
+        
+        </ul>
+      </li>
+    
+      <li class='expanded'><a class='on' name="cookies">cookies <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
+        <ul class='submenu'>
+        
+          
+            <li><a href=""></a></li>
+          
+        
+          
+            <li><a href="/cookies/2015/01/21/orange-cardamom.html">Orange Cardamom Cookies</a></li>
+          
+            <li><a href="/cookies/2015/01/21/ginger-cookies.html">Ginger Cookies</a></li>
+          
+            <li><a href="/cookies/2015/01/21/earl-grey-tea-cookies.html">Earl Grey Tea Cookies</a></li>
+          
+            <li><a href="/cookies/2015/01/21/chai-cookies.html">Chai Tea Cookies</a></li>
+          
+            <li><a href="/cookies/2015/01/21/buckeye-balls.html">Buckeye Balls</a></li>
+          
+            <li><a href="/cookies/2015/01/21/apple-gouda-oatmeal.html">Apple Gouda Oatmeal cookies</a></li>
+          
+            <li><a href="/cookies/2015/01/21/anise-fig-date.html">Anise-Scented Fig and Date Cookies</a></li>
+          
+        
+        </ul>
+      </li>
+    
+      <li class='expanded'><a class='on' name="dinners">dinners <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
+        <ul class='submenu'>
+        
+          
+            <li><a href=""></a></li>
+          
+        
+          
+            <li><a href="/dinners/2015/01/21/stir-fry.html">Chicken Stir-fry</a></li>
+          
+            <li><a href="/dinners/2015/01/21/chili.html">Lucy's Easy Chili</a></li>
+          
+        
+        </ul>
+      </li>
+    
+      <li class='expanded'><a class='on' name="snacks">snacks <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
+        <ul class='submenu'>
+        
+          
+            <li><a href=""></a></li>
+          
+        
+          
+            <li><a href="/snacks/2015/01/21/pumpkin-bread.html">Pumpkin Bread</a></li>
+          
+            <li><a href="/snacks/2015/01/21/granola.html">MDW Granola</a></li>
+          
+            <li><a href="/snacks/2015/01/21/brie-apple-onion.html">Baked Brie with Apples and Carmelized Onions</a></li>
+          
+        
+        </ul>
+      </li>
+    
+      <li class='expanded'><a class='on' name="soups">soups <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
+        <ul class='submenu'>
+        
+          
+            <li><a href=""></a></li>
+          
+        
+          
+            <li><a href="/soups/2015/01/21/pumpkin-soup.html">Creamy Pumpkin Soup</a></li>
+          
+            <li><a href="/soups/2015/01/21/mushroom-sausage-soup.html">Mushroom Sausage Soup</a></li>
+          
+            <li><a href="/soups/2015/01/21/creamy-chicken-dill.html">Creamy Dill Chicken Stew with Bowtie Pasta</a></li>
+          
+            <li><a href="/soups/2015/01/21/chicken-soup.html">Chicken and Rice Soup</a></li>
+          
+        
+        </ul>
+      </li>
+    
     </ul>
+
+    <div class='icons'>
+    <a href='https://github.com/lucywyman'><img class='social' src='/assets/img/github-icon.png'></a>
+    <a href='http://linkedin.com/pub/lucy-wyman/70/553/6a7/'><img class='social' src='/assets/img/linkedin.png'></a>
+    <a href='https://plus.google.com/107251431728646146032/posts'><img class='social' src='/assets/img/google-plus.png'></a>
+    </div>
+
 </div>
 
     <div class='content'>
         <div class="home">
-
-
+  <h2 class='title'>Cooking and Code</h2><hr><br>
+  <p class='intro'>Hello! Welcome to our humble recipes website. We use 
+    <a href='https://github.com/lucywyman/recipes'>github</a> to keep track of our recipes,
+    and thought that it would be a good opportunity to learn how to use 
+    <a href="http://jekyllrb.com/">Jekyll</a>.  We also figured that we might turn up
+    in the desperate searches of a few Chef regulars.  This site is 
+    <a href="https://github.com/lucywyman/recipes-website">on github (different link)</a> 
+    -- please feel free to make a PR, submit an issue, or just 
+    <a href="https://github.com/lucywyman">see what we do</a></p>
   <ul class="post-list">
     
       <li>
-        <span class="post-meta">Jan 21, 2015</span>
+        <h3><a class="post-link" href="/dinners/2015/01/21/stir-fry.html">Chicken Stir-fry</a></h3>
+        <span class="post-meta">01.21.2015</span>
+        <h2 id="ingredients">Ingredients</h2>
+<ul>
+  <li>1 lb. Chicken</li>
+  <li>2-3 head of broccoli</li>
+  <li>1 onion</li>
+  <li>Some cut up carrots (sliced, diced, however you like them.
+We just cut them into chunks.</li>
+  <li>2 tbsp minced garlic</li>
+  <li>Fresh ginger OR 2 tbsp ground ginger</li>
+  <li>2 tbsp corn starch</li>
+  <li>A pinch of salt</li>
+  <li>2 tbsp sesame oil</li>
+  <li>1/3 cup water</li>
+  <li>3-4 tbsp vegetable oil (we use canola too)</li>
+  <li>2 tbsp Soy sauce</li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/2015/01/21/stir-fry.html">Stir Fry</a>
-        </h2>
+<h2 id="options">Options</h2>
+<ul>
+  <li>Cayenne pepper powder</li>
+  <li>Red chili flakes</li>
+  <li>Sesame seeds</li>
+  <li>Hoisin sauce</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="directions">Directions:</h2>
+
+<ol>
+  <li>Cut the chicken into bite-sized chunks, dice the onion and broccoli, and cut up your carrots as desired (as well as any other veggies you’d like to use!  Bell peppers are nice).</li>
+  <li>Heat large skillet or wok on the stove, with vegetable oil in it, to medium-high heat.</li>
+  <li>Toss in onions, garlic, and ginger</li>
+  <li>Stir until onions are soft, about 3 minutes</li>
+  <li>Throw in carrots and broccoli.  Also let them simmer for a few minutes.</li>
+  <li>Now throw everything else in and cook until chicken is fully cooked, about twenty minutes.</li>
+</ol>
+
+<p>Best served over rice or with toast.  Or both over rice AND with toast.  Whatever floats your boat.</p>
+
+        <br>
       </li>
     
       <li>
-        <span class="post-meta">Jan 21, 2015</span>
+        <h3><a class="post-link" href="/soups/2015/01/21/pumpkin-soup.html">Creamy Pumpkin Soup</a></h3>
+        <span class="post-meta">01.21.2015</span>
+        <h2 id="ingredients">Ingredients:</h2>
 
-        <h2>
-          <a class="post-link" href="/2015/01/21/pumpkin-soup.html">Pumpkin Soup</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
+<ul>
+  <li>3 cups chicken broth</li>
+  <li>1 tsp salt</li>
+  <li>2 cups pumpkin puree</li>
+  <li>1/2 cup chopped onion</li>
+  <li>1 tsp thyme</li>
+  <li>1 tbsp garlic</li>
+  <li>1/2 tbsp black pepper</li>
+  <li>1 tsp ginger</li>
+  <li>1 tsp cinnamon</li>
+  <li>1 cup (whole) milk</li>
+  <li>1/4 cup butter</li>
+  <li>Parmesan (for garnish)</li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/2015/01/21/pumpkin-bread.html">Pumpkin Bread</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
+<p><br /></p>
 
-        <h2>
-          <a class="post-link" href="/2015/01/21/peanut-butter.html">Peanut Butter</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
+<h2 id="directions">Directions:</h2>
 
-        <h2>
-          <a class="post-link" href="/2015/01/21/orange-cardamom.html">Orange Cardamom</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
+<ol>
+  <li>In a large pot, combine everything but parmesan and milk.</li>
+  <li>Bring to boil</li>
+  <li>Reduce heat to low (about 4 on our stove) and simmer for 30 minutes</li>
+  <li>Pour into blender, blend until smooth, return to pot.  Serve with parmesan/sour cream/bacon.  </li>
+</ol>
 
-        <h2>
-          <a class="post-link" href="/2015/01/21/mushroom-sausage-soup.html">Mushroom Sausage Soup</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
 
-        <h2>
-          <a class="post-link" href="/2015/01/21/granola.html">Granola</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/2015/01/21/ginger-cookies.html">Ginger Cookies</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/2015/01/21/earl-grey-tea-cookies.html">Earl Grey Tea Cookies</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/2015/01/21/dutch-babies.html">Dutch Babies</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/2015/01/21/creamy-chicken-dill.html">Creamy Chicken Dill</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/2015/01/21/chili.html">Chili</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/2015/01/21/chicken-soup.html">Chicken Soup</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/2015/01/21/chai-cookies.html">Chai Cookies</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/2015/01/21/buckeye-balls.html">Buckeye Balls</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/2015/01/21/brie-apple-onion.html">Brie Apple Onion</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/2015/01/21/apple-gouda-oatmeal.html">Apple Gouda Oatmeal</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/2015/01/21/anise-fig-date.html">Anise Fig Date</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 21, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/miscellaneous/2015/01/21/2015-01-21-asparagus-onion-gruyere-quiche.html">Recipes | Gruyere Quich with Asparagus and Onion</a>
-        </h2>
+        <br>
       </li>
     
   </ul>
-
   <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
 </div>
 
     </div>
-    <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">Recipes</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>Recipes</li>
-          <li><a href="mailto:wyman.lucy@gmail.com">wyman.lucy@gmail.com</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          
-          <li>
-            <a href="https://github.com/lucywyman">
-              <span class="icon  icon--github">
-                <svg viewBox="0 0 16 16">
-                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
-                </svg>
-              </span>
-
-              <span class="username">lucywyman</span>
-            </a>
-          </li>
-          
-
-          
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text"></p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
+    <div class='footer'>
+</div>
 
   </body>
 </html>

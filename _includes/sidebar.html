@@ -1,3 +1,25 @@
 <div class='sidebar'>
     <ul>
-        {% for post in site.
+    <li><a href="/">home</a></li>
+    <li><a href="/about">about me</a></li>
+    {% assign sorted_cats = (site.categories | sort:0) %}
+    {% for category in sorted_cats %}
+      <li class='expanded'><a class='on' name="{{ category | first }}">{{ category | first }} <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
+        <ul class='submenu'>
+        {% for posts in category %}
+          {% for post in posts %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+    </ul>
+
+    <div class='icons'>
+    <a href='https://github.com/lucywyman'><img class='social' src='/assets/img/github-icon.png'></a>
+    <a href='http://linkedin.com/pub/lucy-wyman/70/553/6a7/'><img class='social' src='/assets/img/linkedin.png'></a>
+    <a href='https://plus.google.com/107251431728646146032/posts'><img class='social' src='/assets/img/google-plus.png'></a>
+    </div>
+
+</div>
