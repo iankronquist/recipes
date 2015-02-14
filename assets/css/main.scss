@@ -105,7 +105,6 @@ ul{
     background: $prim; 
     min-height: 100vh;
     padding-top: 30px;
-    z-index: 10;
 
     a{
         color: $light;}
@@ -154,3 +153,27 @@ img{
     display: block;
     text-align: center;}
 
+@media screen and (max-width: 980px){
+    .sidebar{
+        width: 100%;
+        height: $menu-y;
+        min-height: $menu-y;
+        padding-top: 0px;
+       }
+       
+    .sidebar ul{
+            height: $menu-y;
+            vertical-align: top;
+        }        
+    .sidebar ul li{
+                display: inline-block;
+                padding: 0px 5px;
+    }            
+    .icons{
+        display: none;
+    }
+    .content{
+        width: 80%;
+        margin: 0px auto;
+    }
+} 
