@@ -98,12 +98,13 @@ ul{
 
 .sidebar{
     width: 12%;
+    min-width: 150px;
     margin: 0px;
     vertical-align: top;
     padding: 10px;
     display: inline-block;
     background: $prim; 
-    min-height: 100vh;
+    height: 100%;
     padding-top: 30px;
 
     a{
@@ -138,11 +139,13 @@ ul{
 }    
     
 .social{
-    max-width: 40px;}
+    max-width: 30px;}
 
 .icons{
-    margin: 0 auto;
-    display: inline-block;
+    a{
+        margin: 0 auto;
+        display: inline-block;
+    }
     bottom: 0px;}
 
 img{
