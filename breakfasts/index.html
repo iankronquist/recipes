@@ -1,0 +1,14 @@
+---
+layout: category
+slugify: true
+title: Breakfasts
+---
+
+<br><br>
+<ul>
+    {% for post in site.categories.breakfasts %}
+    <li><a href='{{ post.title }}.html'>{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+

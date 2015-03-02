@@ -12,6 +12,7 @@ layouts: ./layouts
 data_source: ./data
 
 permalink: /:title.html
+paginate: 20
 
 # Build settings
 markdown: kramdown

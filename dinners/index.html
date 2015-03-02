@@ -1,0 +1,14 @@
+---
+layout: category
+slugify: true
+title: Dinners
+---
+
+<br><br>
+<ul>
+    {% for post in site.categories.dinners %}
+    <li><a href='{{ post.title }}.html'>{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+

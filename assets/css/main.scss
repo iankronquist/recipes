@@ -1,5 +1,6 @@
 ---
 ---
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px|Satisfy|Calligraffitti);
 
 $bodybg: #FFF;
@@ -9,7 +10,7 @@ $accent: #0CA5B0;
 $hover: #A5B3AA;
 $sans: 'Open Sans', sans-serif;
 $serif: 'Slabo 27px', serif;
-$title: 'Calligraffitti', cursive;
+$title: 'Source Sans Pro', sans-serif;
 $light: #FFF;
 $dark: #4E3F30;
 $menu-y: 50px;
@@ -64,7 +65,7 @@ ul{
 
 .intro{
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     width: 60%;
     margin: 0 auto;
 }
@@ -103,15 +104,16 @@ ul{
     vertical-align: top;
     padding: 10px;
     display: inline-block;
-    background: $prim; 
+    background-image: url('/assets/img/wall4.png');
+    background-color: $prim; 
     height: 100%;
     padding-top: 30px;
 
     a{
-        color: $light;}
+        color: $dark;}
     a:hover{
         cursor: pointer;
-        color: $hover;}
+        color: $accent;}
 
     ul{
         display: block;
@@ -124,6 +126,7 @@ ul{
                 li{
                     padding: 5px 0px;
                     display: block;
+                    font-size: 16px;
                 }
             }
         }
@@ -139,6 +142,7 @@ ul{
 }    
     
 .social{
+    display:none;
     max-width: 30px;}
 
 .icons{
