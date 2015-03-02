@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Baked Hot Chocolated
+title: Baked Hot Chocolate
 category: desserts
 from: http://www.browneyedbaker.com/baked-hot-chocolate/
 time: 1 hour
