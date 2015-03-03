@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
-
 <div class='recipe'>
-
+    <h2 class='title'>{{ page.title }}</h2><br><br>
+    {% if page.time %}
+    <p>Total time: {{ page.time }}</p>
+    {% endif %}
+    {% if page.from %}
+    <p>From: <a href="{{ page.from }}">{{ page.from }}</a></p><br>
+    {% endif %}
+    {{ content }}
 </div>

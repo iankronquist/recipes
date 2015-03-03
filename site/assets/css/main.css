@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px|Satisfy|Calligraffitti);
+* {
+  margin: 0; }
+
+html, body {
+  font-size: 100%;
+  height: 100%;
+  overflow-x: hidden; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #FFF; }
+
+h1, h2, h3, h4, h5, p, a, li {
+  font-family: "Slabo 27px", serif;
+  color: #4E3F30;
+  max-width: 100%; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 24px; }
+
+p {
+  font-size: 20px; }
+
+a {
+  color: #0CA5B0;
+  text-decoration: none; }
+
+a:hover {
+  color: #A5B3AA; }
+
+li {
+  font-size: 20px; }
+
+ul {
+  list-style-type: none; }
+
+.title {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 40px; }
+
+.intro {
+  text-align: center;
+  font-size: 22px;
+  width: 60%;
+  margin: 0 auto; }
+
+.menu {
+  width: 100%;
+  background: #988D72;
+  height: 50px;
+  position: relative;
+  z-index: 100; }
+  .menu ul {
+    display: block; }
+    .menu ul li {
+      display: inline-block; }
+      .menu ul li a {
+        display: block;
+        line-height: 50px;
+        padding: 0px 5px;
+        color: #FFF; }
+      .menu ul li a:hover {
+        color: #A5B3AA; }
+
+.sidebar {
+  width: 12%;
+  min-width: 150px;
+  margin: 0px;
+  vertical-align: top;
+  padding: 10px;
+  display: inline-block;
+  background-image: url("/assets/img/wall4.png");
+  background-color: #988D72;
+  height: 100%;
+  padding-top: 30px; }
+  .sidebar a {
+    color: #4E3F30; }
+  .sidebar a:hover {
+    cursor: pointer;
+    color: #0CA5B0; }
+  .sidebar ul {
+    display: block;
+    padding: 10px; }
+    .sidebar ul li ul {
+      display: none;
+      padding-left: 15px; }
+      .sidebar ul li ul li {
+        padding: 5px 0px;
+        display: block;
+        font-size: 16px; }
+
+.content {
+  width: 80%;
+  margin: 0px;
+  min-height: 100vh;
+  padding: 20px;
+  display: inline-block; }
+
+.social {
+  display: none;
+  max-width: 30px; }
+
+.icons {
+  bottom: 0px; }
+  .icons a {
+    margin: 0 auto;
+    display: inline-block; }
+
+img {
+  max-width: 600px;
+  width: 80%;
+  border: 4px solid #988D72;
+  margin: 0px auto;
+  display: block;
+  text-align: center; }
+
+@media screen and (max-width: 980px) {
+  .sidebar {
+    width: 100%;
+    height: 50px;
+    min-height: 50px;
+    padding-top: 0px; }
+
+  .sidebar ul {
+    height: 50px;
+    vertical-align: top; }
+
+  .sidebar ul li {
+    display: inline-block;
+    padding: 0px 5px; }
+
+  .icons {
+    display: none; }
+
+  .content {
+    width: 80%;
+    margin: 0px auto; } }
