@@ -45,7 +45,7 @@ $(document).ready(function(){
 </head>
 
   <body>
-    <div class='sidebar'>
+    <div id='sidebar'>
     <ul id='menu'>
     <li><a href="/">home</a></li>
     <li><a href="/about">about me</a></li>
@@ -58,6 +58,8 @@ $(document).ready(function(){
                 <li><a href=""></a></li>
             
         
+            
+                <li><a href="/baked-oatmeal.html">Baked Oatmeal</a></li>
             
                 <li><a href="/overnight-oats.html">Overnight Oats</a></li>
             
@@ -101,15 +103,15 @@ $(document).ready(function(){
             
         
             
+                <li><a href="/caramel-frosting.html">Caramel Buttercream Frosting</a></li>
+            
+                <li><a href="/banana-caramel-cupcakes.html">Banana Cupcakes with Caramel Buttercream Frosting</a></li>
+            
                 <li><a href="/baked-hot-choclate.html">Baked Hot Chocolate</a></li>
             
                 <li><a href="/avocado-chocolate-cake.html">Avocado Chocolate Cake</a></li>
             
                 <li><a href="/chocolate-mug-cake.html">Five-minute Chocolate Mug Cake</a></li>
-            
-                <li><a href="/avocado-truffles.html">Avocado Truffles</a></li>
-            
-                <li><a href="/avocado-frozen-yogurt.html">Avocado Frozen Yogurt</a></li>
             
         
                 <li><a href='/desserts'>more...</a></li>
@@ -163,6 +165,8 @@ $(document).ready(function(){
                 <li><a href=""></a></li>
             
         
+            
+                <li><a href="/peanut-butter-green.html">Green Peanut Butter Smoothie</a></li>
             
                 <li><a href="/avocado-smoothie.html">Creamy Avocado Smoothie</a></li>
             
@@ -239,14 +243,14 @@ $(document).ready(function(){
     </ul>
 
     <div class='icons'>
-    <a href='https://github.com/lucywyman'><img class='social' src='/assets/img/github-icon.png'></a>
-    <a href='http://linkedin.com/pub/lucy-wyman/70/553/6a7/'><img class='social' src='/assets/img/linkedin.png'></a>
-    <a href='https://plus.google.com/107251431728646146032/posts'><img class='social' src='/assets/img/google-plus.png'></a>
+    <a href='https://github.com/lucywyman'><img class='social' src='/assets/img/github-icon-black.png'></a>
+    <a href='http://linkedin.com/pub/lucy-wyman/70/553/6a7/'><img class='social' src='/assets/img/linkedin-black.png'></a>
+    <a href='https://plus.google.com/107251431728646146032/posts'><img class='social' src='/assets/img/google-plus-black.png'></a>
     </div>
 
 </div>
 
-    <div class='content'>
+    <div id='content'>
         <div class='recipe'>
     <h2 class='title'>Cheesy Pasta</h2><br><br>
     
@@ -285,4 +289,10 @@ $(document).ready(function(){
 </div>
 
   </body>
+<script>
+    var h = document.getElementById("content").offsetHeight;
+    var m = document.getElementById("menu").offsetHeight;
+    var t = h + m;
+    document.getElementById("sidebar").style.height = t + "px";
+</script>
 </html>

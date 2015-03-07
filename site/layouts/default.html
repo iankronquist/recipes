@@ -3,9 +3,15 @@
   {% include head.html %}
   <body>
     {% include sidebar.html %}
-    <div class='content'>
+    <div id='content'>
         {{ content }}
     </div>
     {% include footer.html %}
   </body>
+<script>
+    var h = document.getElementById("content").offsetHeight;
+    var m = document.getElementById("menu").offsetHeight;
+    var t = h + m;
+    document.getElementById("sidebar").style.height = t + "px";
+</script>
 </html>

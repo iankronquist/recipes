@@ -4,14 +4,13 @@
   margin: 0; }
 
 html, body {
-  font-size: 100%;
   height: 100%;
+  font-size: 100%;
   overflow-x: hidden; }
 
 body {
   margin: 0px;
-  padding: 0px;
-  background: #FFF; }
+  padding: 0px; }
 
 h1, h2, h3, h4, h5, p, a, li {
   font-family: "Slabo 27px", serif;
@@ -38,7 +37,7 @@ a {
   text-decoration: none; }
 
 a:hover {
-  color: #A5B3AA; }
+  color: rgba(12, 165, 176, 0.5); }
 
 li {
   font-size: 20px; }
@@ -73,51 +72,56 @@ ul {
         padding: 0px 5px;
         color: #FFF; }
       .menu ul li a:hover {
-        color: #A5B3AA; }
+        color: rgba(12, 165, 176, 0.5); }
 
-.sidebar {
-  width: 12%;
+#sidebar {
   min-width: 150px;
+  width: 12%;
+  min-height: 100%;
+  height: 100%;
   margin: 0px;
   vertical-align: top;
-  padding: 10px;
   display: inline-block;
-  background-image: url("/assets/img/wall4.png");
+  background-image: url("/assets/img/wet_snow.png");
   background-color: #988D72;
-  height: 100%;
+  padding: 10px;
   padding-top: 30px; }
-  .sidebar a {
+  #sidebar a {
     color: #4E3F30; }
-  .sidebar a:hover {
+  #sidebar a:hover {
     cursor: pointer;
     color: #0CA5B0; }
-  .sidebar ul {
+  #sidebar ul {
     display: block;
     padding: 10px; }
-    .sidebar ul li ul {
+    #sidebar ul li ul {
       display: none;
       padding-left: 15px; }
-      .sidebar ul li ul li {
+      #sidebar ul li ul li {
         padding: 5px 0px;
         display: block;
         font-size: 16px; }
 
-.content {
+#content {
   width: 80%;
   margin: 0px;
   min-height: 100vh;
   padding: 20px;
   display: inline-block; }
 
+.category-archive ul {
+  list-style-type: none; }
+
 .social {
-  display: none;
-  max-width: 30px; }
+  max-width: 40px; }
 
 .icons {
   bottom: 0px; }
   .icons a {
     margin: 0 auto;
     display: inline-block; }
+  .icons img {
+    border: none; }
 
 img {
   max-width: 600px;
