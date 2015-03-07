@@ -1,7 +1,6 @@
 ---
 layout: recipe
 title: Zucchini fries
-category: To be tried
 from: http://chocolatecoveredkatie.com/2013/05/28/crispy-healthy-baked-zucchini-fries/
 time: 30 minutes
 ---

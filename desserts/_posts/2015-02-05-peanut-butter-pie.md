@@ -1,7 +1,6 @@
 ---
 layout: recipe
 title: Healthy Peanut Butter Pie
-category: To be tried
 from: http://chocolatecoveredkatie.com/2012/09/09/no-bake-peanut-butter-pie/
 time: 1 hour
 ---
