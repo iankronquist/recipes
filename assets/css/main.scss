@@ -30,7 +30,7 @@ body{
     //background: $bodybg;
 }
 
-h1, h2, h3, h4, h5, p, a, li{
+h1, h2, h3, h4, h5, p, a, li, label{
     font-family: $serif;
     color: $dark;
     max-width: 100%;
@@ -44,7 +44,7 @@ h3{
     font-size: 28px;}
 h4{
     font-size: 24px;}
-p{
+p, label{
     font-size: 20px;}
 a{
     color: $accent;
@@ -184,6 +184,32 @@ img{
     }
     a:hover{
         color: rgba(255, 255, 255, .5);
+    }
+}
+
+//Form
+form{
+    input, textarea{
+        display:block;
+        margin: 5px;
+        margin-bottom: 20px;
+        padding: 5px;
+        width: 40%;
+        max-height: 100px;
+        border: 1px solid $dark;
+        }
+    .submit{
+        width: 100px;
+        background: $accent;
+        color: $light;   
+    }
+    .submit:hover{
+        cursor: pointer;
+        background: $hover;
+    }
+    .submit:active{
+        border: 2px solid $dark;
+        background: $accent;
     }
 }
 

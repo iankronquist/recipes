@@ -12,7 +12,7 @@ body {
   margin: 0px;
   padding: 0px; }
 
-h1, h2, h3, h4, h5, p, a, li {
+h1, h2, h3, h4, h5, p, a, li, label {
   font-family: "Slabo 27px", serif;
   color: #4E3F30;
   max-width: 100%; }
@@ -29,7 +29,7 @@ h3 {
 h4 {
   font-size: 24px; }
 
-p {
+p, label {
   font-size: 20px; }
 
 a {
@@ -130,6 +130,37 @@ img {
   margin: 0px auto;
   display: block;
   text-align: center; }
+
+.footer {
+  background: #0CA5B0;
+  width: 100%;
+  z-index: 100; }
+  .footer p {
+    max-width: 40%;
+    padding: 20px; }
+  .footer a {
+    color: #fff; }
+  .footer a:hover {
+    color: rgba(255, 255, 255, 0.5); }
+
+form input, form textarea {
+  display: block;
+  margin: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 40%;
+  max-height: 100px;
+  border: 1px solid #4E3F30; }
+form .submit {
+  width: 100px;
+  background: #0CA5B0;
+  color: #FFF; }
+form .submit:hover {
+  cursor: pointer;
+  background: rgba(12, 165, 176, 0.5); }
+form .submit:active {
+  border: 2px solid #4E3F30;
+  background: #0CA5B0; }
 
 @media screen and (max-width: 980px) {
   .sidebar {

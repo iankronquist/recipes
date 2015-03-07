@@ -17,6 +17,8 @@ Ingredients:
 * Optional: 1 tbsp butter or oil of choice for more butter-y cakes
 
 Flavors and Add-ins to try:
+---------------------------
+
 * Pumpkin
 * Cinnamon 
 * Cocoa powder

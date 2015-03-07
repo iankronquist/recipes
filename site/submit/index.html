@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="/assets/jquery-1.11.2.js"></script>
 
-  <title>pasta</title>
+  <title>Submit a Recipe</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/pasta/">
+  <link rel="canonical" href="/submit/">
   <link rel="alternate" type="application/rss+xml" title="Recipes" href="/feed.xml" />
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -252,19 +252,38 @@ $(document).ready(function(){
 </div>
 
     <div id='content'>
-        <div class="category-archive">
-    <div>
-        <span class="title">pasta</span>
-    </div>
-    <div>
-        <li><a href="/asparagus-parmesan.html"><span>Asparagus, Chicken and Parmesan cream<span></a></li>
-<li><a href="/lasagna.html"><span>Lasagna<span></a></li>
-<li><a href="/cheesy-pasta.html"><span>Cheesy Pasta<span></a></li>
-<li><a href="/health-mac-and-cheese.html"><span>Baked Macaroni and Cheese<span></a></li>
+        <h1>Submit a Recipe</h1>
+<p>Or a question or comment</p><br><br>
+<form action="https://getsimpleform.com/messages?form_api_token=fe73d06d18561f8eefc325dec007da85" method="post">
+  <input type='hidden' name='redirect_to' value='http://recipes.lucywyman.me/thank-you' />
+  <!-- all your input fields here.... -->
+  <label for='first'>First name:</label>
+  <input type='text' name='first'></input>
+  <label for='last'>Last name:</label>
+  <input type='text' name='last'></input>
+  <label for='email'>Email:</label>
+  <input type='text' name='email'></input>
+  <label for='content-form'>Recipe, question, or comment:</label>
+  <textarea id='content-form' rows='10' cols='10'></textarea> 
+  <input class='submit' type='submit' value='Submit'></input>
 
+<script>
+var placeholder = 'Ingredients:1/2 cup flour\n1 cup something else\n...\n\nDirections:\n1. Preheat oven to...\n...\nEnjoy!';
+$('textarea').attr('value', placeholder);
 
-    </div>
-</div>
+$('textarea').focus(function(){
+    if($(this).val() === placeholder){
+        $(this).attr('value', '');
+    }
+});
+
+$('textarea').blur(function(){
+    if($(this).val() ===''){
+        $(this).attr('value', placeholder);
+    }    
+});
+</script>
+
 
     </div>
     <div class='footer'>
