@@ -97,7 +97,7 @@ ul{
     }
 }
 
-.sidebar{
+#sidebar{
     min-width: 150px;
     width: 12%;
     min-height: 100%;
@@ -134,7 +134,7 @@ ul{
     }
 }
 
-.content{
+#content{
     width: 80%;
     margin: 0px;
     min-height: 100vh;
@@ -149,13 +149,15 @@ ul{
 }
     
 .social{
-    display:none;
-    max-width: 30px;}
+    max-width: 40px;}
 
 .icons{
     a{
         margin: 0 auto;
         display: inline-block;
+    }
+    img{
+        border: none;
     }
     bottom: 0px;}
 
