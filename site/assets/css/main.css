@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px|Satisfy|Calligraffitti);
+@import url("slicknav.css");
 * {
   margin: 0; }
 
@@ -18,19 +19,21 @@ h1, h2, h3, h4, h5, p, a, li, label {
   max-width: 100%; }
 
 h1 {
+  font-family: "Open Sans", sans-serif;
   font-size: 36px; }
 
 h2 {
-  font-size: 24px; }
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px; }
 
 h3 {
-  font-size: 28px; }
+  font-size: 32px; }
 
 h4 {
   font-size: 24px; }
 
-p, label {
-  font-size: 20px; }
+p, label, li {
+  font-size: 18px; }
 
 a {
   color: #0CA5B0;
@@ -38,9 +41,6 @@ a {
 
 a:hover {
   color: rgba(12, 165, 176, 0.5); }
-
-li {
-  font-size: 20px; }
 
 ul {
   list-style-type: none; }
@@ -102,12 +102,18 @@ ul {
         display: block;
         font-size: 16px; }
 
+.slicknav_menu {
+  display: none; }
+
 #content {
   width: 80%;
   margin: 0px;
   min-height: 100vh;
   padding: 20px;
   display: inline-block; }
+
+.portrait {
+  max-width: 400px; }
 
 .category-archive ul {
   list-style-type: none; }
@@ -163,23 +169,28 @@ form .submit:active {
   background: #0CA5B0; }
 
 @media screen and (max-width: 980px) {
-  .sidebar {
+  #sidebar {
+    display: none; }
+
+  .slicknav_menu {
+    display: block;
+    position: relative;
+    background: #0CA5B0;
     width: 100%;
-    height: 50px;
-    min-height: 50px;
-    padding-top: 0px; }
+    max-width: 100%; }
 
-  .sidebar ul {
-    height: 50px;
-    vertical-align: top; }
+  .slicknav_btn {
+    background: #4E3F30; }
 
-  .sidebar ul li {
-    display: inline-block;
-    padding: 0px 5px; }
+  .slicknav_arrow {
+    display: none; }
 
   .icons {
     display: none; }
 
-  .content {
-    width: 80%;
-    margin: 0px auto; } }
+  /* Content */
+  .intro {
+    width: 80%; }
+
+  #content {
+    width: 95%; } }

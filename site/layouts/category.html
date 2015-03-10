@@ -4,7 +4,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="/assets/jquery-1.11.2.js"></script>
+  <script src="/assets/jquery/jquery-1.11.2.js"></script>
+  <script src="/assets/jquery/jquery.slicknav.min.js"></script>
+  <script src="/assets/jquery/jquery-tapir.min.js"></script>
+  <script>
+        $(document).ready(function(){
+            $('#sidebar').slicknav({
+                label:''
+        });
+    });
+    </script>
 
   <title>Recipes</title>
   <meta name="description" content="">
@@ -23,7 +32,7 @@
 
 </script>
 
-  <script>
+<script>
 $(document).ready(function(){  
     $('ul li.expanded > a')
     .attr('data-active','0')
@@ -58,6 +67,8 @@ $(document).ready(function(){
                 <li><a href=""></a></li>
             
         
+            
+                <li><a href="/asparagus-cheese-frittata.html">Asparagus and Cheese Frittata</a></li>
             
                 <li><a href="/baked-oatmeal.html">Baked Oatmeal</a></li>
             
@@ -103,6 +114,8 @@ $(document).ready(function(){
             
         
             
+                <li><a href="/chai-ice-cream.html">Chai Ice Cream</a></li>
+            
                 <li><a href="/caramel-frosting.html">Caramel Buttercream Frosting</a></li>
             
                 <li><a href="/banana-caramel-cupcakes.html">Banana Cupcakes with Caramel Buttercream Frosting</a></li>
@@ -110,8 +123,6 @@ $(document).ready(function(){
                 <li><a href="/baked-hot-choclate.html">Baked Hot Chocolate</a></li>
             
                 <li><a href="/avocado-chocolate-cake.html">Avocado Chocolate Cake</a></li>
-            
-                <li><a href="/chocolate-mug-cake.html">Five-minute Chocolate Mug Cake</a></li>
             
         
                 <li><a href='/desserts'>more...</a></li>
@@ -183,15 +194,15 @@ $(document).ready(function(){
             
         
             
+                <li><a href="/crispy-sweet-potato-skins.html">Crispy Baked Sweet Potatoes</a></li>
+            
+                <li><a href="/cookie-dough-dip.html">Cookie Dough Dip</a></li>
+            
                 <li><a href="/tomato-tarts.html">Tomato Mozzarella tarts</a></li>
             
                 <li><a href="/bacon-wrapped-figs.html">Dates Wrapped in Bacon stuffed with Cheese</a></li>
             
                 <li><a href="/zucchini-fries.html">Zucchini fries</a></li>
-            
-                <li><a href="/cheez-its.html">Homemade Cheez-Its</a></li>
-            
-                <li><a href="/pumpkin-bread.html">Pumpkin Bread</a></li>
             
         
                 <li><a href='/snacks'>more...</a></li>
@@ -221,25 +232,6 @@ $(document).ready(function(){
         </ul>
       </li>
     
-      <li class='expanded'><a class='on'>to be tried <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
-        <ul class='submenu'>
-        
-            
-                <li><a href=""></a></li>
-            
-        
-            
-                <li><a href="/peanut-butter-pie.html">Healthy Peanut Butter Pie</a></li>
-            
-                <li><a href="/lasagna.html">Lasagna</a></li>
-            
-                <li><a href="/zucchini-fries.html">Zucchini fries</a></li>
-            
-        
-                <li><a href='/to be tried'>more...</a></li>
-        </ul>
-      </li>
-    
     <li><a href="/submit">submit a recipe</a></li>
     </ul>
 
@@ -263,14 +255,16 @@ $(document).ready(function(){
 
     </div>
     <div class='footer'>
-    <p>This site is made by me, <a href='http://lucywyman.me'>Lucy Wyman</a>, and is powered by <a href=''>Jekyll</a> and <a href=''>Github Pages</a> (I know, I was lazy, ok?)</p>
+    <p>This site is made by me, <a href='http://lucywyman.me'>Lucy Wyman</a>, and is powered by <a href='http://jekyllrb.com/'>Jekyll</a> and <a href='https://pages.github.com/'>Github Pages</a> (I know, I was lazy, ok?)</p>
 </div>
 
   </body>
 <script>
-    var h = document.getElementById("content").offsetHeight;
-    var m = document.getElementById("menu").offsetHeight;
-    var t = h + m;
-    document.getElementById("sidebar").style.height = t + "px";
+    if ($(window).width > 980){
+        var h = document.getElementById("content").offsetHeight;
+        var m = document.getElementById("menu").offsetHeight;
+        var t = h + m;
+        document.getElementById("sidebar").style.height = t + "px";
+    }
 </script>
 </html>
