@@ -1,7 +1,8 @@
 ---
 layout: recipe
 title: Cookie Dough Dip
-from: http://chocolatecoveredkatie.com/2011/09/27/new-recipe-sugar-free-cookie-dough-dip/
+from: Chocolate-Covered Katie
+fromurl: http://chocolatecoveredkatie.com/2011/09/27/new-recipe-sugar-free-cookie-dough-dip/
 time: 5 minutes
 ---
 

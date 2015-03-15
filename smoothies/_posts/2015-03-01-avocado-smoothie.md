@@ -2,7 +2,8 @@
 layout: recipe
 title: Creamy Avocado Smoothie
 category: smoothies
-from: http://chocolatecoveredkatie.com/2013/09/23/avocado-smoothie/
+from: Chocolate-Covered Katie
+fromurl: http://chocolatecoveredkatie.com/2013/09/23/avocado-smoothie/
 time: 2 minutes
 ---
 

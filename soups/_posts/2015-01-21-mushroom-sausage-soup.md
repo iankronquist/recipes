@@ -1,8 +1,7 @@
 ---
 layout: recipe
 title: Mushroom Sausage Soup
-category: Soups
-from: 
+from: All Recipes Magazine
 time: 5 1/2 hours
 ---
 

@@ -27,6 +27,7 @@ h2 {
   font-size: 22px; }
 
 h3 {
+  font-familY: "Open Sans", sans-serif;
   font-size: 32px; }
 
 h4 {
@@ -102,6 +103,27 @@ ul {
         display: block;
         font-size: 16px; }
 
+#search-input {
+  width: 75%;
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 2px;
+  border: 1px 0px 1px 1px solid #4E3F30; }
+
+#search-button {
+  width: 30px;
+  height: auto;
+  text-align: center;
+  margin: 0px;
+  display: inline-block;
+  background: #ddd;
+  border: 1px 1px 1px 0px solid #4E3F30;
+  vertical-align: middle; }
+  #search-button img {
+    width: 80%;
+    margin: 0 auto;
+    border: none; }
+
 .slicknav_menu {
   display: none; }
 
@@ -118,11 +140,16 @@ ul {
 .category-archive ul {
   list-style-type: none; }
 
+.post-list h3 a {
+  font-family: "Open Sans", sans-serif; }
+
 .social {
   max-width: 40px; }
 
 .icons {
-  bottom: 0px; }
+  bottom: 0px;
+  text-align: center;
+  margin: 0px auto; }
   .icons a {
     margin: 0 auto;
     display: inline-block; }

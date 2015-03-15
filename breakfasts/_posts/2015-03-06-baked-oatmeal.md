@@ -1,7 +1,8 @@
 ---
 layout: recipe
 title: Baked Oatmeal
-from: http://chocolatecoveredkatie.com/2010/11/11/check-out-my-oatmeal-cake/
+from: Chocolate-Covered Katie
+fromurl: http://chocolatecoveredkatie.com/2010/11/11/check-out-my-oatmeal-cake/
 time: 20 minutes
 ---
 

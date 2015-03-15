@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
   <head>
   <meta charset="utf-8">
@@ -6,14 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="/assets/jquery/jquery-1.11.2.js"></script>
   <script src="/assets/jquery/jquery.slicknav.min.js"></script>
-  <script src="/assets/jquery/jquery-tapir.min.js"></script>
-  <script>
-        $(document).ready(function(){
-            $('#sidebar').slicknav({
-                label:''
-        });
-    });
-    </script>
+  <script src="/assets/js/jekyll-search.js"></script>
+
+  <!--<script src="/assets/jquery/jquery-tapir.min.js"></script>-->
 
   <title>Recipes</title>
   <meta name="description" content="">
@@ -21,36 +16,7 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="canonical" href="/page2/">
   <link rel="alternate" type="application/rss+xml" title="Recipes" href="/feed.xml" />
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-48093989-4', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-<script>
-$(document).ready(function(){  
-    $('ul li.expanded > a')
-    .attr('data-active','0')
-    .click(function(event){
-       $('.submuneu').hide();   
-        if($(this).attr('data-active')==0){
-            $(this).parent().find('ul').slideToggle('slow');
-            $(this).attr('data-active','1');
-        }
-        else{
-          $(this).parent().find('ul').slideToggle('slow');
-          $(this).attr('data-active','0');}
-        $('a.on').removeClass("active");
-        $(this).addClass("active");
-    });
-
-});
-</script>
 </head>
 
   <body>
@@ -68,18 +34,41 @@ $(document).ready(function(){
             
         
             
+                <li><a href="/banana-pancakes-mini.html">Banana Pancakes for One</a></li>
+            
+                <li><a href="/lemon-bluebery-quinoa.html">Lemon-Blueberry Quinoa</a></li>
+            
                 <li><a href="/asparagus-cheese-frittata.html">Asparagus and Cheese Frittata</a></li>
             
                 <li><a href="/baked-oatmeal.html">Baked Oatmeal</a></li>
             
                 <li><a href="/overnight-oats.html">Overnight Oats</a></li>
             
-                <li><a href="/dutch-babies.html">Kronquist Dutch Babies</a></li>
-            
-                <li><a href="/asparagus-onion-gruyere-quiche.html">Gruyere Quiche with Asparagus and Onion</a></li>
-            
         
                 <li><a href='/breakfasts'>more...</a></li>
+        </ul>
+      </li>
+    
+      <li class='expanded'><a class='on'>cakes <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
+        <ul class='submenu'>
+        
+            
+                <li><a href=""></a></li>
+            
+        
+            
+                <li><a href="/banana-mug-cake.html">Banana Mug Cake</a></li>
+            
+                <li><a href="/pumpkin-cheesecake-dip.html">Pumpking Cheesecake Dip</a></li>
+            
+                <li><a href="/gooey-pumpkin-cake.html">Ooey Gooey Pumpkin Cake</a></li>
+            
+                <li><a href="/banana-caramel-cupcakes.html">Banana Cupcakes with Caramel Buttercream Frosting</a></li>
+            
+                <li><a href="/avocado-chocolate-cake.html">Avocado Chocolate Cake</a></li>
+            
+        
+                <li><a href='/cakes'>more...</a></li>
         </ul>
       </li>
     
@@ -99,7 +88,7 @@ $(document).ready(function(){
             
                 <li><a href="/chai-cookies.html">Chai Tea Cookies</a></li>
             
-                <li><a href="/buckeye-balls.html">Buckeye Balls</a></li>
+                <li><a href="/apple-gouda-oatmeal.html">Apple Gouda Oatmeal cookies</a></li>
             
         
                 <li><a href='/cookies'>more...</a></li>
@@ -114,15 +103,15 @@ $(document).ready(function(){
             
         
             
-                <li><a href="/chai-ice-cream.html">Chai Ice Cream</a></li>
+                <li><a href="/turkish-coffee-ice-cream.html">Turkish Coffee Ice Cream</a></li>
             
-                <li><a href="/caramel-frosting.html">Caramel Buttercream Frosting</a></li>
+                <li><a href="/rhubarb-vanilla-compote.html">Rhubarb Vanilla Compote</a></li>
             
-                <li><a href="/banana-caramel-cupcakes.html">Banana Cupcakes with Caramel Buttercream Frosting</a></li>
+                <li><a href="/lavender-ice-cream.html">Lavender Ice Cream</a></li>
             
-                <li><a href="/baked-hot-choclate.html">Baked Hot Chocolate</a></li>
+                <li><a href="/chocolate-fondue.html">Chocolate Fondue</a></li>
             
-                <li><a href="/avocado-chocolate-cake.html">Avocado Chocolate Cake</a></li>
+                <li><a href="/cherry-ricotta.html">Cherry Ricotta Dessert</a></li>
             
         
                 <li><a href='/desserts'>more...</a></li>
@@ -194,15 +183,15 @@ $(document).ready(function(){
             
         
             
+                <li><a href="/irish-soda-bread-scones.html">Irish Soda Bread Scones</a></li>
+            
+                <li><a href="/poached-pears-with-yogurt.html">Poached Pears with Yogurt</a></li>
+            
                 <li><a href="/crispy-sweet-potato-skins.html">Crispy Baked Sweet Potatoes</a></li>
             
                 <li><a href="/cookie-dough-dip.html">Cookie Dough Dip</a></li>
             
                 <li><a href="/tomato-tarts.html">Tomato Mozzarella tarts</a></li>
-            
-                <li><a href="/bacon-wrapped-figs.html">Dates Wrapped in Bacon stuffed with Cheese</a></li>
-            
-                <li><a href="/zucchini-fries.html">Zucchini fries</a></li>
             
         
                 <li><a href='/snacks'>more...</a></li>
@@ -233,14 +222,10 @@ $(document).ready(function(){
       </li>
     
     <li><a href="/submit">submit a recipe</a></li>
-    </ul>
-
-    <div class='icons'>
-    <a href='https://github.com/lucywyman'><img class='social' src='/assets/img/github-icon-black.png'></a>
-    <a href='http://linkedin.com/pub/lucy-wyman/70/553/6a7/'><img class='social' src='/assets/img/linkedin-black.png'></a>
-    <a href='https://plus.google.com/107251431728646146032/posts'><img class='social' src='/assets/img/google-plus-black.png'></a>
-    </div>
-
+   </ul>
+    <form>
+    <input type="text" id='search-input' class="search-field" placeholder="Search" autocomplete=true><a href='/search' id='search-button'><img src='/assets/img/search_icon_white.png'></a>
+    </form>
 </div>
 
     <div id='content'>
@@ -255,22 +240,22 @@ $(document).ready(function(){
     -- please feel free to make a PR, submit an issue, or just 
     <a href="https://github.com/lucywyman">see what we do</a></p>
   <br><br>
-  <ul class="post-list">
+  <ul class='results' id='results-container'></ul>
+  <ul class="post-list" id='post-li'>
     
       <li>
-        <h3><a class="post-link" href="/chai-ice-cream.html">Chai Ice Cream</a></h3>
-        <span class="post-meta">03. 9.2015</span>
+        <h3><a class="post-link" href="/turkish-coffee-ice-cream.html">Turkish Coffee Ice Cream</a></h3>
+        <span class="post-meta">03.15.2015</span>
         <h2 id="ingredients">Ingredients:</h2>
 
 <ul>
-  <li>1 banana </li>
-  <li>1 cup milk of choice (or less, for a thicker shake)</li>
-  <li>1/2 tsp powdered ginger</li>
-  <li>1/2 tsp cinnamon</li>
-  <li>tiny dash each: pepper, cardamom, ground cloves, and nutmeg (You can omit any/all if desired. Or omit all the spices and simply brew your milk with a chai tea bag. Then chill before blending.) </li>
-  <li>1/4 tsp pure vanilla extract</li>
-  <li>optional: sweetener if desired</li>
-  <li>optional: feel free to add some ice cream if desired!</li>
+  <li>1 1/2 cups water</li>
+  <li>2 cups white sugar</li>
+  <li>1 1/2 cups heavy cream</li>
+  <li>1 1/2 cups milk</li>
+  <li>6 egg yolks</li>
+  <li>3 tablespoons instant coffee granules</li>
+  <li>2 tablespoons finely ground coffee (optional)</li>
 </ul>
 
 <p><br /></p>
@@ -278,25 +263,30 @@ $(document).ready(function(){
 <h2 id="directions">Directions:</h2>
 
 <ol>
-  <li>Combine all ingredients and blend until smooth. </li>
-  <li>Freeze for 5 hours or overnight</li>
-  <li>Garnsih with more cinnamon, whipped cream, or just have plain. </li>
+  <li>Bring the water and sugar to a boil in a saucepan over high heat until the sugar dissolves and the syrup turns clear. </li>
+  <li>Pour into a pot that’s in a pot of boiling water along with the cream and milk. </li>
+  <li>Whisk until the syrup has dissolved into the milk, then whisk in the egg yolks and instant coffee until completely incorporated.</li>
+  <li>Turn down the heat until the water is simmering. </li>
+  <li>Cook, stirring constantly until the custard has thickened and will stick to the back of a spoon, about 10 minutes. </li>
+  <li>Pour through a mesh strainer into a bowl and stir in the coffee grounds. </li>
+  <li>Refrigerate several hours until cold.</li>
+  <li>Pour into an ice cream maker and freeze according to manufacturer’s directions.</li>
 </ol>
+
 
         <br>
       </li>
     
       <li>
-        <h3><a class="post-link" href="/crispy-sweet-potato-skins.html">Crispy Baked Sweet Potatoes</a></h3>
-        <span class="post-meta">03. 8.2015</span>
-        <p><img src="/assets/img/baked-sweet-potatoes.jpg" alt="Crispy Baked Sweet Potatoes" /></p>
-
-<h2 id="ingredients">Ingredients:</h2>
+        <h3><a class="post-link" href="/rhubarb-vanilla-compote.html">Rhubarb Vanilla Compote</a></h3>
+        <span class="post-meta">03.15.2015</span>
+        <h2 id="ingredients">Ingredients:</h2>
 
 <ul>
-  <li>3 yams or sweet potatoes</li>
-  <li>oil or oil spray</li>
-  <li>toppings of choice (We used parmesan cheese with great success. Other ideas are maple syrup, marshmallows, nuts, whipped cream, or butter)</li>
+  <li>4 cups diced rhubarb</li>
+  <li>1/2 cup sugar</li>
+  <li>1/4 teaspoon cinnamon</li>
+  <li>1/2 teaspoon vanilla</li>
 </ul>
 
 <p><br /></p>
@@ -304,14 +294,11 @@ $(document).ready(function(){
 <h2 id="directions">Directions:</h2>
 
 <ol>
-  <li>Poke a few holes around each potato with a fork. </li>
-  <li><strong>If using the microwave</strong>: wrap the potatoes loosely in paper towels and cook 14 minutes. </li>
-  <li><strong>If using the oven</strong>: Preheat oven to 400f place potatoes on a tray or baking dish, and bake for one hour. </li>
-  <li>For both methods, once the potatoes are done, slice each in half lengthwise and scoop out about 2/3 of the flesh (save this scooped-out flesh). </li>
-  <li>Preheat oven to 430 F, and either brush the skins with oil or spray with oil spray. </li>
-  <li>Place on a baking sheet. Bake 15 minutes, then remove from the oven and re-stuff with filling.  If your topping is something like cheese, nuts, or marshmallows, add them now.</li>
-  <li>Place under the broiler, and broil (or bake at the oven’s highest temperature) 3-4 minutes. </li>
+  <li>Combine rhubarb, sugar and cinnamon in a medium saucepan. </li>
+  <li>Bring to a simmer over medium-high heat; reduce heat to a gentle simmer and cook until the rhubarb begins to break down, about 5 minutes. </li>
+  <li>Remove from heat and stir in vanilla.</li>
 </ol>
+
 
         <br>
       </li>
@@ -323,15 +310,90 @@ $(document).ready(function(){
     </div>
     <div class='footer'>
     <p>This site is made by me, <a href='http://lucywyman.me'>Lucy Wyman</a>, and is powered by <a href='http://jekyllrb.com/'>Jekyll</a> and <a href='https://pages.github.com/'>Github Pages</a> (I know, I was lazy, ok?)</p>
+    <div class='icons'>
+    <a href='https://github.com/lucywyman'><img class='social' src='/assets/img/github-icon.png'></a>
+    <a href='http://linkedin.com/pub/lucy-wyman/70/553/6a7/'><img class='social' src='/assets/img/linkedin.png'></a>
+    <a href='https://plus.google.com/107251431728646146032/posts'><img class='social' src='/assets/img/google-plus.png'></a>
+    </div>
+
+
 </div>
 
-  </body>
-<script>
-    if ($(window).width > 980){
+
+<!-- All the yavascripts -->
+    <script>
+    console.log("I");
+        $(document).ready(function(){
+            $('#sidebar').slicknav({
+                label:''
+        });
+    });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48093989-4', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+    <script>
+    $(document).ready(function(){  
+    // Expanding navigation bar js
+        $('ul li.expanded > a')
+        .attr('data-active','0')
+        .click(function(event){
+           $('.submuneu').hide();   
+            if($(this).attr('data-active')==0){
+                $(this).parent().find('ul').slideToggle('slow');
+                $(this).attr('data-active','1');
+            }
+            else{
+              $(this).parent().find('ul').slideToggle('slow');
+              $(this).attr('data-active','0');}
+            $('a.on').removeClass("active");
+            $(this).addClass("active");
+        });
+    // Make sidebar full height 
+    if ($(window).width() > 980){
         var h = document.getElementById("content").offsetHeight;
-        var m = document.getElementById("menu").offsetHeight;
-        var t = h + m;
+        //var m = document.getElementById("menu").offsetHeight;
+        var t = h;
         document.getElementById("sidebar").style.height = t + "px";
-    }
-</script>
+        }
+    SimpleJekyllSearch.init({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      dataSource: '/search.json',
+      searchResultsTemplate:'<li><a href="{url}">{title}</a></li>',
+      fuzzy: true
+    })
+    $("#search-input").keyup(function(){
+        if($("#search-input").val() != ""){
+            $(".post-list").css("display", "none"); 
+            $(".recipe").css("display", "none"); 
+            $(".about").css("display", "none"); 
+        } else {
+            $(".post-list").css("display", "block");
+            $(".recipe").css("display", "block"); 
+            $(".about").css("display", "block"); 
+        }
+    });
+   });
+    </script>    
+    <!-- Pinterest and Facebook -->
+    <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script> 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </body>
 </html>

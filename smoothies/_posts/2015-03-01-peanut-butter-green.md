@@ -2,7 +2,8 @@
 layout: recipe
 title: Green Peanut Butter Smoothie
 category: smoothies
-from: http://fitfoodiefinds.com/2014/05/peanut-lovers-green-smoothie/
+from: Fit Foodie Finds
+fromurl: http://fitfoodiefinds.com/2014/05/peanut-lovers-green-smoothie/
 time: 2 minutes
 ---
 

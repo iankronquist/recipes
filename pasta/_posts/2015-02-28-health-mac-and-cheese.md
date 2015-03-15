@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Baked Macaroni and Cheese
-category: pasta
-from: http://chocolatecoveredkatie.com/2014/12/28/healthy-mac-cheese/
+from: Chocolate-Covered Katie
+fromurl: http://chocolatecoveredkatie.com/2014/12/28/healthy-mac-cheese/
 time: 45 minutes
 ---
 

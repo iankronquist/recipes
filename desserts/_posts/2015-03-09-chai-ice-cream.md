@@ -1,7 +1,8 @@
 ---
 layout: recipe
 title: Chai Ice Cream
-from: http://chocolatecoveredkatie.com/2012/04/27/vanilla-chai-breakfast-shakes/
+from: Chocolate-Covered Katie
+fromurl: http://chocolatecoveredkatie.com/2012/04/27/vanilla-chai-breakfast-shakes/
 time: 5 hours (5 minutes prep)
 ---
 

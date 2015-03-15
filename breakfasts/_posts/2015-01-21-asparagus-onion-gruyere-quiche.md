@@ -2,8 +2,8 @@
 layout: recipe
 title: Gruyere Quiche with Asparagus and Onion
 category: Breakfasts
-from: 
-time:
+from: Our Kitchen
+time: 90 minutes
 ---
 
 Ingredients

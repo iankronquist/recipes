@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Creamy Pumpkin Soup
-category: Soups
-from: http://www.thecomfortofcooking.com/2012/12/creamy-pumpkin-soup.html
+from: The Comfort of Cooking
+fromurl: http://www.thecomfortofcooking.com/2012/12/creamy-pumpkin-soup.html
 time: 45 minutes
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Broccoli Cheese Soup
-category: Soups
-from: http://www.browneyedbaker.com/broccoli-cheese-soup-recipe/
+from: Brown-eyed Baker
+fromurl: http://www.browneyedbaker.com/broccoli-cheese-soup-recipe/
 time: 45 minutes
 ---
 

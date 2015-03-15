@@ -1,9 +1,7 @@
 ---
 layout: recipe
 title: Pumpkin Bread
-category: Snacks
 time: 90 minutes
-from: 
 ---
 
 Ingredients:
