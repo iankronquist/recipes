@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
   {% include head.html %}
   <body>
@@ -56,10 +56,18 @@
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
       dataSource: '/search.json',
-      limit: '5',
       searchResultsTemplate:'<li><a href="{url}">{title}</a></li>',
       fuzzy: true
     })
+    $("#search-input").keyup(function(){
+        if($("#search-input").val() != ""){
+            $(".post-list").css("display", "none"); 
+            $(".recipe").css("display", "none"); 
+        } else {
+            $(".post-list").css("display", "block");
+            $(".recipe").css("display", "block"); 
+        }
+    });
    });
     </script>    
     <!-- Pinterest and Facebook -->

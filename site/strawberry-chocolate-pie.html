@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
   <head>
   <meta charset="utf-8">
@@ -34,6 +34,8 @@
             
         
             
+                <li><a href="/banana-pancakes-mini.html">Banana Pancakes for One</a></li>
+            
                 <li><a href="/lemon-bluebery-quinoa.html">Lemon-Blueberry Quinoa</a></li>
             
                 <li><a href="/asparagus-cheese-frittata.html">Asparagus and Cheese Frittata</a></li>
@@ -42,10 +44,31 @@
             
                 <li><a href="/overnight-oats.html">Overnight Oats</a></li>
             
-                <li><a href="/dutch-babies.html">Kronquist Dutch Babies</a></li>
-            
         
                 <li><a href='/breakfasts'>more...</a></li>
+        </ul>
+      </li>
+    
+      <li class='expanded'><a class='on'>cakes <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
+        <ul class='submenu'>
+        
+            
+                <li><a href=""></a></li>
+            
+        
+            
+                <li><a href="/banana-mug-cake.html">Banana Mug Cake</a></li>
+            
+                <li><a href="/pumpkin-cheesecake-dip.html">Pumpking Cheesecake Dip</a></li>
+            
+                <li><a href="/gooey-pumpkin-cake.html">Ooey Gooey Pumpkin Cake</a></li>
+            
+                <li><a href="/banana-caramel-cupcakes.html">Banana Cupcakes with Caramel Buttercream Frosting</a></li>
+            
+                <li><a href="/avocado-chocolate-cake.html">Avocado Chocolate Cake</a></li>
+            
+        
+                <li><a href='/cakes'>more...</a></li>
         </ul>
       </li>
     
@@ -80,15 +103,15 @@
             
         
             
-                <li><a href="/strawberry-chocolate-pie.html">Silky Chocolate Strawberry Pie</a></li>
+                <li><a href="/turkish-coffee-ice-cream.html">Turkish Coffee Ice Cream</a></li>
             
-                <li><a href="/rosewater-raspberry-glace.html">Rosewater Raspberry Glacé</a></li>
+                <li><a href="/rhubarb-vanilla-compote.html">Rhubarb Vanilla Compote</a></li>
             
-                <li><a href="/peach-blueberry-pie.html">Peach Blueberry Pie</a></li>
+                <li><a href="/lavender-ice-cream.html">Lavender Ice Cream</a></li>
             
-                <li><a href="/chocolate-pie-crust.html">Crumbly Chocolate Pie Crust</a></li>
+                <li><a href="/chocolate-fondue.html">Chocolate Fondue</a></li>
             
-                <li><a href="/strawberry-ice-cream.html">Strawberry Ice Cream</a></li>
+                <li><a href="/cherry-ricotta.html">Cherry Ricotta Dessert</a></li>
             
         
                 <li><a href='/desserts'>more...</a></li>
@@ -200,9 +223,9 @@
     
     <li><a href="/submit">submit a recipe</a></li>
    </ul>
-    <input type="text" id='search-input' class="search-field" placeholder="Search..">
-    <ul class="results" id='results-container'></ul>
- 
+    <form>
+    <input type="text" id='search-input' class="search-field" placeholder="Search" autocomplete=true><a href='/search' id='search-button'><img src='/assets/img/search_icon_white.png'></a>
+    </form>
     <div class='icons'>
     <a href='https://github.com/lucywyman'><img class='social' src='/assets/img/github-icon-black.png'></a>
     <a href='http://linkedin.com/pub/lucy-wyman/70/553/6a7/'><img class='social' src='/assets/img/linkedin-black.png'></a>
@@ -212,7 +235,8 @@
 </div>
 
     <div id='content'>
-        <div class='recipe'>
+        <ul class='results' id='results-container'></ul>
+<div class='recipe'>
     <h2 class='title'>Silky Chocolate Strawberry Pie</h2>
     <div class='icons'>
     <a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"  data-pin-shape="round" data-pin-height="32"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_round_red_32.png" /></a>
@@ -306,10 +330,18 @@
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
       dataSource: '/search.json',
-      limit: '5',
       searchResultsTemplate:'<li><a href="{url}">{title}</a></li>',
       fuzzy: true
     })
+    $("#search-input").keyup(function(){
+        if($("#search-input").val() != ""){
+            $(".post-list").css("display", "none"); 
+            $(".recipe").css("display", "none"); 
+        } else {
+            $(".post-list").css("display", "block");
+            $(".recipe").css("display", "block"); 
+        }
+    });
    });
     </script>    
     <!-- Pinterest and Facebook -->

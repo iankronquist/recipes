@@ -135,6 +135,31 @@ ul{
     }
 }
 
+#search-input{
+    width: 75%;
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 2px;
+    border: 1px 0px 1px 1px solid $dark;
+}
+
+#search-button{
+    width: 30px;
+    height: auto;
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+    background: #ddd;
+    border: 1px 1px 1px 0px solid $dark;
+    vertical-align: middle;
+        
+    img{
+        width: 80%;
+        margin: 0 auto;
+        border: none;
+    }
+}
+
 // Slick nav mobile menu
 .slicknav_menu{
     display: none;
