@@ -27,6 +27,7 @@ h2 {
   font-size: 22px; }
 
 h3 {
+  font-familY: "Open Sans", sans-serif;
   font-size: 32px; }
 
 h4 {
@@ -118,11 +119,16 @@ ul {
 .category-archive ul {
   list-style-type: none; }
 
+.post-list h3 a {
+  font-family: "Open Sans", sans-serif; }
+
 .social {
   max-width: 40px; }
 
 .icons {
-  bottom: 0px; }
+  bottom: 0px;
+  text-align: center;
+  margin: 0px auto; }
   .icons a {
     margin: 0 auto;
     display: inline-block; }

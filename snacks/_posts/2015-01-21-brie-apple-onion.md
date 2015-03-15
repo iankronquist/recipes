@@ -3,7 +3,8 @@ layout: recipe
 title: Baked Brie with Apples and Carmelized Onions
 category: Snacks
 time: 60 minutes
-from: http://allrecipes.com/recipe/baked-brie-with-caramelized-onions/
+from: All Recipes
+fromurl: http://allrecipes.com/recipe/baked-brie-with-caramelized-onions/
 ---
 
 Ingredients

@@ -6,14 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="/assets/jquery/jquery-1.11.2.js"></script>
   <script src="/assets/jquery/jquery.slicknav.min.js"></script>
-  <script src="/assets/jquery/jquery-tapir.min.js"></script>
-  <script>
-        $(document).ready(function(){
-            $('#sidebar').slicknav({
-                label:''
-        });
-    });
-    </script>
+  <script src="/assets/js/jekyll-search.js"></script>
+
+  <!--<script src="/assets/jquery/jquery-tapir.min.js"></script>-->
 
   <title>Recipes</title>
   <meta name="description" content="">
@@ -21,36 +16,7 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="canonical" href="/page2/">
   <link rel="alternate" type="application/rss+xml" title="Recipes" href="/feed.xml" />
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-48093989-4', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-<script>
-$(document).ready(function(){  
-    $('ul li.expanded > a')
-    .attr('data-active','0')
-    .click(function(event){
-       $('.submuneu').hide();   
-        if($(this).attr('data-active')==0){
-            $(this).parent().find('ul').slideToggle('slow');
-            $(this).attr('data-active','1');
-        }
-        else{
-          $(this).parent().find('ul').slideToggle('slow');
-          $(this).attr('data-active','0');}
-        $('a.on').removeClass("active");
-        $(this).addClass("active");
-    });
-
-});
-</script>
 </head>
 
   <body>
@@ -68,6 +34,8 @@ $(document).ready(function(){
             
         
             
+                <li><a href="/lemon-bluebery-quinoa.html">Lemon-Blueberry Quinoa</a></li>
+            
                 <li><a href="/asparagus-cheese-frittata.html">Asparagus and Cheese Frittata</a></li>
             
                 <li><a href="/baked-oatmeal.html">Baked Oatmeal</a></li>
@@ -75,8 +43,6 @@ $(document).ready(function(){
                 <li><a href="/overnight-oats.html">Overnight Oats</a></li>
             
                 <li><a href="/dutch-babies.html">Kronquist Dutch Babies</a></li>
-            
-                <li><a href="/asparagus-onion-gruyere-quiche.html">Gruyere Quiche with Asparagus and Onion</a></li>
             
         
                 <li><a href='/breakfasts'>more...</a></li>
@@ -99,7 +65,7 @@ $(document).ready(function(){
             
                 <li><a href="/chai-cookies.html">Chai Tea Cookies</a></li>
             
-                <li><a href="/buckeye-balls.html">Buckeye Balls</a></li>
+                <li><a href="/apple-gouda-oatmeal.html">Apple Gouda Oatmeal cookies</a></li>
             
         
                 <li><a href='/cookies'>more...</a></li>
@@ -114,15 +80,15 @@ $(document).ready(function(){
             
         
             
-                <li><a href="/chai-ice-cream.html">Chai Ice Cream</a></li>
+                <li><a href="/strawberry-chocolate-pie.html">Silky Chocolate Strawberry Pie</a></li>
             
-                <li><a href="/caramel-frosting.html">Caramel Buttercream Frosting</a></li>
+                <li><a href="/rosewater-raspberry-glace.html">Rosewater Raspberry Glacé</a></li>
             
-                <li><a href="/banana-caramel-cupcakes.html">Banana Cupcakes with Caramel Buttercream Frosting</a></li>
+                <li><a href="/peach-blueberry-pie.html">Peach Blueberry Pie</a></li>
             
-                <li><a href="/baked-hot-choclate.html">Baked Hot Chocolate</a></li>
+                <li><a href="/chocolate-pie-crust.html">Crumbly Chocolate Pie Crust</a></li>
             
-                <li><a href="/avocado-chocolate-cake.html">Avocado Chocolate Cake</a></li>
+                <li><a href="/strawberry-ice-cream.html">Strawberry Ice Cream</a></li>
             
         
                 <li><a href='/desserts'>more...</a></li>
@@ -194,15 +160,15 @@ $(document).ready(function(){
             
         
             
+                <li><a href="/irish-soda-bread-scones.html">Irish Soda Bread Scones</a></li>
+            
+                <li><a href="/poached-pears-with-yogurt.html">Poached Pears with Yogurt</a></li>
+            
                 <li><a href="/crispy-sweet-potato-skins.html">Crispy Baked Sweet Potatoes</a></li>
             
                 <li><a href="/cookie-dough-dip.html">Cookie Dough Dip</a></li>
             
                 <li><a href="/tomato-tarts.html">Tomato Mozzarella tarts</a></li>
-            
-                <li><a href="/bacon-wrapped-figs.html">Dates Wrapped in Bacon stuffed with Cheese</a></li>
-            
-                <li><a href="/zucchini-fries.html">Zucchini fries</a></li>
             
         
                 <li><a href='/snacks'>more...</a></li>
@@ -233,8 +199,10 @@ $(document).ready(function(){
       </li>
     
     <li><a href="/submit">submit a recipe</a></li>
-    </ul>
-
+   </ul>
+    <input type="text" id='search-input' class="search-field" placeholder="Search..">
+    <ul class="results" id='results-container'></ul>
+ 
     <div class='icons'>
     <a href='https://github.com/lucywyman'><img class='social' src='/assets/img/github-icon-black.png'></a>
     <a href='http://linkedin.com/pub/lucy-wyman/70/553/6a7/'><img class='social' src='/assets/img/linkedin-black.png'></a>
@@ -258,19 +226,19 @@ $(document).ready(function(){
   <ul class="post-list">
     
       <li>
-        <h3><a class="post-link" href="/chai-ice-cream.html">Chai Ice Cream</a></h3>
-        <span class="post-meta">03. 9.2015</span>
+        <h3><a class="post-link" href="/strawberry-chocolate-pie.html">Silky Chocolate Strawberry Pie</a></h3>
+        <span class="post-meta">03.14.2015</span>
         <h2 id="ingredients">Ingredients:</h2>
 
 <ul>
-  <li>1 banana </li>
-  <li>1 cup milk of choice (or less, for a thicker shake)</li>
-  <li>1/2 tsp powdered ginger</li>
-  <li>1/2 tsp cinnamon</li>
-  <li>tiny dash each: pepper, cardamom, ground cloves, and nutmeg (You can omit any/all if desired. Or omit all the spices and simply brew your milk with a chai tea bag. Then chill before blending.) </li>
-  <li>1/4 tsp pure vanilla extract</li>
-  <li>optional: sweetener if desired</li>
-  <li>optional: feel free to add some ice cream if desired!</li>
+  <li>One recipe <a href="http://recipes.lucywyman.me/chocolate-pie-crust">basic chocolate pie crust</a></li>
+  <li>2.5 cups strawberries or other berries, fresh or frozen (250g)</li>
+  <li>1/4 cup plus 2 tbsp cocoa powder</li>
+  <li>1 package extra firm tofu</li>
+  <li>1/2 tbsp pure vanilla extract</li>
+  <li>1/3 cup oil of choice (I usually use canola)</li>
+  <li>1/8 tsp uncut stevia, or 1/3 cup agave or pure maple syrup</li>
+  <li>1/8 tsp salt</li>
 </ul>
 
 <p><br /></p>
@@ -278,25 +246,23 @@ $(document).ready(function(){
 <h2 id="directions">Directions:</h2>
 
 <ol>
-  <li>Combine all ingredients and blend until smooth. </li>
-  <li>Freeze for 5 hours or overnight</li>
-  <li>Garnsih with more cinnamon, whipped cream, or just have plain. </li>
+  <li>Combine all ingredients in a Vita-Mix or high-powered blender or food processor. Only if using stevia, add 4 tablespoons water. </li>
+  <li>Blend until a super-smooth texture is achieved. Taste and add more sweetener until desired taste is reached. </li>
+  <li>Pour into a prepared pie crust and refrigerate or freeze for up to a week.</li>
 </ol>
 
         <br>
       </li>
     
       <li>
-        <h3><a class="post-link" href="/crispy-sweet-potato-skins.html">Crispy Baked Sweet Potatoes</a></h3>
-        <span class="post-meta">03. 8.2015</span>
-        <p><img src="/assets/img/baked-sweet-potatoes.jpg" alt="Crispy Baked Sweet Potatoes" /></p>
-
-<h2 id="ingredients">Ingredients:</h2>
+        <h3><a class="post-link" href="/rosewater-raspberry-glace.html">Rosewater Raspberry Glacé</a></h3>
+        <span class="post-meta">03.14.2015</span>
+        <h2 id="ingredients">Ingredients:</h2>
 
 <ul>
-  <li>3 yams or sweet potatoes</li>
-  <li>oil or oil spray</li>
-  <li>toppings of choice (We used parmesan cheese with great success. Other ideas are maple syrup, marshmallows, nuts, whipped cream, or butter)</li>
+  <li>1¼ cup icing sugar</li>
+  <li>3 tablespoons of raspberry juice</li>
+  <li>1/16th of a teaspoon rosewater</li>
 </ul>
 
 <p><br /></p>
@@ -304,14 +270,12 @@ $(document).ready(function(){
 <h2 id="directions">Directions:</h2>
 
 <ol>
-  <li>Poke a few holes around each potato with a fork. </li>
-  <li><strong>If using the microwave</strong>: wrap the potatoes loosely in paper towels and cook 14 minutes. </li>
-  <li><strong>If using the oven</strong>: Preheat oven to 400f place potatoes on a tray or baking dish, and bake for one hour. </li>
-  <li>For both methods, once the potatoes are done, slice each in half lengthwise and scoop out about 2/3 of the flesh (save this scooped-out flesh). </li>
-  <li>Preheat oven to 430 F, and either brush the skins with oil or spray with oil spray. </li>
-  <li>Place on a baking sheet. Bake 15 minutes, then remove from the oven and re-stuff with filling.  If your topping is something like cheese, nuts, or marshmallows, add them now.</li>
-  <li>Place under the broiler, and broil (or bake at the oven’s highest temperature) 3-4 minutes. </li>
+  <li>Stir the juice into the sugar until combined.</li>
+  <li>Add the rosewater. Only a teensy amount (it is a very powerful flavour – I used about 1/16th of a teaspoon!)</li>
+  <li>Thin out with more juice or thicken with more icing sugar as needed. When making your cupcakes, spoon only a small amount (2 tablespoons) into the cupcake liner. This will leave room for the icing.</li>
+  <li>Once the cupcakes cool, spoon the icing on top of the cupcakes and spread to the edges of the cupcake liner. Top with a rose petal or sugar flower.</li>
 </ol>
+
 
         <br>
       </li>
@@ -325,13 +289,71 @@ $(document).ready(function(){
     <p>This site is made by me, <a href='http://lucywyman.me'>Lucy Wyman</a>, and is powered by <a href='http://jekyllrb.com/'>Jekyll</a> and <a href='https://pages.github.com/'>Github Pages</a> (I know, I was lazy, ok?)</p>
 </div>
 
-  </body>
-<script>
-    if ($(window).width > 980){
+
+<!-- All the yavascripts -->
+    <script>
+    console.log("I");
+        $(document).ready(function(){
+            $('#sidebar').slicknav({
+                label:''
+        });
+    });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48093989-4', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+    <script>
+    $(document).ready(function(){  
+    // Expanding navigation bar js
+        $('ul li.expanded > a')
+        .attr('data-active','0')
+        .click(function(event){
+           $('.submuneu').hide();   
+            if($(this).attr('data-active')==0){
+                $(this).parent().find('ul').slideToggle('slow');
+                $(this).attr('data-active','1');
+            }
+            else{
+              $(this).parent().find('ul').slideToggle('slow');
+              $(this).attr('data-active','0');}
+            $('a.on').removeClass("active");
+            $(this).addClass("active");
+        });
+    // Make sidebar full height 
+    if ($(window).width() > 980){
         var h = document.getElementById("content").offsetHeight;
-        var m = document.getElementById("menu").offsetHeight;
-        var t = h + m;
+        //var m = document.getElementById("menu").offsetHeight;
+        var t = h;
         document.getElementById("sidebar").style.height = t + "px";
-    }
-</script>
+        }
+    SimpleJekyllSearch.init({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      dataSource: '/search.json',
+      limit: '5',
+      searchResultsTemplate:'<li><a href="{url}">{title}</a></li>',
+      fuzzy: true
+    })
+   });
+    </script>    
+    <!-- Pinterest and Facebook -->
+    <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script> 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </body>
 </html>

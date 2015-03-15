@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Cheesy Pasta
-category: pasta
-from: http://chocolatecoveredkatie.com/2015/01/27/five-minute-cheesy-baked-pasta-casserole/
+from: Chocolate-Covered Katie
+fromurl: http://chocolatecoveredkatie.com/2015/01/27/five-minute-cheesy-baked-pasta-casserole/
 time: 35 minutes
 ---
 

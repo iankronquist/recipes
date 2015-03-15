@@ -1,7 +1,8 @@
 ---
 layout: recipe
 title: Crispy Baked Sweet Potatoes
-from: http://chocolatecoveredkatie.com/2015/01/22/loaded-baked-sweet-potato-skins/
+from: Chocolate-Covered Katie
+fromurl: http://chocolatecoveredkatie.com/2015/01/22/loaded-baked-sweet-potato-skins/
 time: 45 minutes
 ---
 
