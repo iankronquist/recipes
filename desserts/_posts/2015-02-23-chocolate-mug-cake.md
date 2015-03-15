@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Five-minute Chocolate Mug Cake
-category: desserts
-from: http://chocolatecoveredkatie.com/2011/11/06/one-minute-chocolate-cake/
+from: Chocolate-Covered Katie
+fromurl: http://chocolatecoveredkatie.com/2011/11/06/one-minute-chocolate-cake/
 time: 5 minutes
 ---
 

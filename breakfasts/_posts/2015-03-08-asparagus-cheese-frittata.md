@@ -1,7 +1,8 @@
 ---
 layout: recipe
 title: Asparagus and Cheese Frittata
-from: http://www.skinnytaste.com/2009/03/asparagus-and-swiss-cheese-frittata.html
+from: Skinny Taste
+fromurl: http://www.skinnytaste.com/2009/03/asparagus-and-swiss-cheese-frittata.html
 time: 45 minutes
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: recipe
 title: Banana Cupcakes with Caramel Buttercream Frosting 
-from: http://www.marthastewart.com/314362/banana-cupcakes-with-caramel-buttercream?xsc=soc_pin_2015_2_27_cupcakes_gen_R&crlt.pid=camp.DWCii32S2SRb
+from: Martha Stewart
+fromurl: http://www.marthastewart.com/314362/banana-cupcakes-with-caramel-buttercream?xsc=soc_pin_2015_2_27_cupcakes_gen_R&crlt.pid=camp.DWCii32S2SRb
 time: 90 minutes
 ---
 

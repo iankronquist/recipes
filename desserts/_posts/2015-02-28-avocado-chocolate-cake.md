@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Avocado Chocolate Cake
-category: Desserts
-from: http://chocolatecoveredkatie.com/2014/10/14/avocado-chocolate-cake/
+from: Chocolate-Covered Katie
+fromurl: http://chocolatecoveredkatie.com/2014/10/14/avocado-chocolate-cake/
 time: 45 minutes
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Avocado Truffles
-category: Desserts
-from: http://chocolatecoveredkatie.com/2014/06/11/5-ingredient-avocado-fudge-bites/
+from: Chocolate-Covered Katie
+fromurl: http://chocolatecoveredkatie.com/2014/06/11/5-ingredient-avocado-fudge-bites/
 time:  
 ---
 

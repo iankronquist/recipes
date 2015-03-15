@@ -1,7 +1,6 @@
 ---
 layout: recipe
 title: Kronquist Dutch Babies
-category: Breakfasts
 time: 30 minutes
 from: Our kitchen
 ---

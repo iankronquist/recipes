@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Chai cupcakes with Cinnamon buttcream frosting
-category: Desserts
-from: http://peachesncreamblog.blogspot.com/2013/09/sunday-sept-22-2013.html
+from: Peaches 'n' Cream
+fromurl: http://peachesncreamblog.blogspot.com/2013/09/sunday-sept-22-2013.html
 time: 1 hour
 ---
 

@@ -43,6 +43,7 @@ h2{
     font-family: $sans;
     font-size: 22px;}
 h3{
+    font-familY: $sans;
     font-size: 32px;}
 h4{
     font-size: 24px;}
@@ -156,7 +157,13 @@ ul{
         list-style-type: none;
     }
 }
-    
+
+.post-list{
+    h3 a{
+        font-family: $sans;
+    }
+}    
+
 .social{
     max-width: 40px;}
 
@@ -168,7 +175,10 @@ ul{
     img{
         border: none;
     }
-    bottom: 0px;}
+    bottom: 0px;
+    text-align: center;
+    margin: 0px auto;
+}
 
 img{
     max-width: 600px;
