@@ -2,7 +2,7 @@
 layout: recipe
 title: Chicken and Rice Soup
 category: Soups
-from: All recipes magazine
+from: All Recipes Magazine
 time: 4 1/2 hours
 ---
 

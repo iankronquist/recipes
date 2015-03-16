@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Overnight Oats
-category: Breakfasts
-from: http://chocolatecoveredkatie.com/2015/01/18/chocolate-chip-cookie-overnight-oats/
+from: Chocolate Covered Katie
+fromurl: http://chocolatecoveredkatie.com/2015/01/18/chocolate-chip-cookie-overnight-oats/
 time: 5 minutes prep, overnight total
 ---
 

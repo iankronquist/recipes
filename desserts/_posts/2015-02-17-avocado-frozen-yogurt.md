@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Avocado Frozen Yogurt
-category: Desserts
-from: http://chocolatecoveredkatie.com/2013/05/20/avocado-frozen-yogurt/
+from: Chocolate-Covered Katie
+fromurl: http://chocolatecoveredkatie.com/2013/05/20/avocado-frozen-yogurt/
 time: 5 minutes
 ---
 

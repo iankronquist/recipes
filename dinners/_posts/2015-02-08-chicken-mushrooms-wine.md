@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Chicken and Mushrooms in Garlic White wine sauce
-category: Dinners 
-from: http://www.skinnytaste.com/2011/03/chicken-and-mushrooms-in-garlic-white.html
+from: Skinny Taste
+fromurl: http://www.skinnytaste.com/2011/03/chicken-and-mushrooms-in-garlic-white.html
 time: 45 minutes
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Tomato Mozzarella tarts 
-category: Snacks
-from: http://www.bhg.com/recipe/appetizers-snacks/tomato-and-mozzarella-tarts/
+from: Better Homes and Gardens
+fromurl: http://www.bhg.com/recipe/appetizers-snacks/tomato-and-mozzarella-tarts/
 time: 30 minutes
 ---
 

@@ -1,9 +1,8 @@
 ---
 layout: recipe
 title: Creamy Dill Chicken Stew with Bowtie Pasta
-category: Soups
-from:
 time: 6 1/2 hours
+from: All Recipes Magazine
 ---
 Ingredients
 -----------

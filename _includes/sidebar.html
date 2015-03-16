@@ -1,4 +1,4 @@
-<div class='sidebar'>
+<div id='sidebar'>
     <ul id='menu'>
     <li><a href="/">home</a></li>
     <li><a href="/about">about me</a></li>
@@ -15,12 +15,9 @@
         </ul>
       </li>
     {% endfor %}
-    </ul>
-
-    <div class='icons'>
-    <a href='https://github.com/lucywyman'><img class='social' src='/assets/img/github-icon.png'></a>
-    <a href='http://linkedin.com/pub/lucy-wyman/70/553/6a7/'><img class='social' src='/assets/img/linkedin.png'></a>
-    <a href='https://plus.google.com/107251431728646146032/posts'><img class='social' src='/assets/img/google-plus.png'></a>
-    </div>
-
+    <li><a href="/submit">submit a recipe</a></li>
+   </ul>
+    <form>
+    <input type="text" id='search-input' class="search-field" placeholder="Search" autocomplete=true><a href='/search' id='search-button'><img src='/assets/img/search_icon_white.png'></a>
+    </form>
 </div>

@@ -1,10 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="/assets/jquery-1.11.2.js"></script>
+  <script src="/assets/jquery/jquery-1.11.2.js"></script>
+  <script src="/assets/jquery/jquery.slicknav.min.js"></script>
+  <script src="/assets/js/jekyll-search.js"></script>
+
+  <!--<script src="/assets/jquery/jquery-tapir.min.js"></script>-->
 
   <title>about</title>
   <meta name="description" content="">
@@ -12,40 +16,11 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="canonical" href="/about/">
   <link rel="alternate" type="application/rss+xml" title="Recipes" href="/feed.xml" />
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-48093989-4', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-  <script>
-$(document).ready(function(){  
-    $('ul li.expanded > a')
-    .attr('data-active','0')
-    .click(function(event){
-       $('.submuneu').hide();   
-        if($(this).attr('data-active')==0){
-            $(this).parent().find('ul').slideToggle('slow');
-            $(this).attr('data-active','1');
-        }
-        else{
-          $(this).parent().find('ul').slideToggle('slow');
-          $(this).attr('data-active','0');}
-        $('a.on').removeClass("active");
-        $(this).addClass("active");
-    });
-
-});
-</script>
 </head>
 
   <body>
-    <div class='sidebar'>
+    <div id='sidebar'>
     <ul id='menu'>
     <li><a href="/">home</a></li>
     <li><a href="/about">about me</a></li>
@@ -59,14 +34,41 @@ $(document).ready(function(){
             
         
             
+                <li><a href="/banana-pancakes-mini.html">Banana Pancakes for One</a></li>
+            
+                <li><a href="/lemon-bluebery-quinoa.html">Lemon-Blueberry Quinoa</a></li>
+            
+                <li><a href="/asparagus-cheese-frittata.html">Asparagus and Cheese Frittata</a></li>
+            
+                <li><a href="/baked-oatmeal.html">Baked Oatmeal</a></li>
+            
                 <li><a href="/overnight-oats.html">Overnight Oats</a></li>
-            
-                <li><a href="/dutch-babies.html">Kronquist Dutch Babies</a></li>
-            
-                <li><a href="/asparagus-onion-gruyere-quiche.html">Gruyere Quiche with Asparagus and Onion</a></li>
             
         
                 <li><a href='/breakfasts'>more...</a></li>
+        </ul>
+      </li>
+    
+      <li class='expanded'><a class='on'>cakes <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
+        <ul class='submenu'>
+        
+            
+                <li><a href=""></a></li>
+            
+        
+            
+                <li><a href="/banana-mug-cake.html">Banana Mug Cake</a></li>
+            
+                <li><a href="/pumpkin-cheesecake-dip.html">Pumpking Cheesecake Dip</a></li>
+            
+                <li><a href="/gooey-pumpkin-cake.html">Ooey Gooey Pumpkin Cake</a></li>
+            
+                <li><a href="/banana-caramel-cupcakes.html">Banana Cupcakes with Caramel Buttercream Frosting</a></li>
+            
+                <li><a href="/avocado-chocolate-cake.html">Avocado Chocolate Cake</a></li>
+            
+        
+                <li><a href='/cakes'>more...</a></li>
         </ul>
       </li>
     
@@ -86,7 +88,7 @@ $(document).ready(function(){
             
                 <li><a href="/chai-cookies.html">Chai Tea Cookies</a></li>
             
-                <li><a href="/buckeye-balls.html">Buckeye Balls</a></li>
+                <li><a href="/apple-gouda-oatmeal.html">Apple Gouda Oatmeal cookies</a></li>
             
         
                 <li><a href='/cookies'>more...</a></li>
@@ -101,15 +103,15 @@ $(document).ready(function(){
             
         
             
-                <li><a href="/baked-hot-choclate.html">Baked Hot Chocolate</a></li>
+                <li><a href="/turkish-coffee-ice-cream.html">Turkish Coffee Ice Cream</a></li>
             
-                <li><a href="/avocado-chocolate-cake.html">Avocado Chocolate Cake</a></li>
+                <li><a href="/rhubarb-vanilla-compote.html">Rhubarb Vanilla Compote</a></li>
             
-                <li><a href="/chocolate-mug-cake.html">Five-minute Chocolate Mug Cake</a></li>
+                <li><a href="/lavender-ice-cream.html">Lavender Ice Cream</a></li>
             
-                <li><a href="/avocado-truffles.html">Avocado Truffles</a></li>
+                <li><a href="/chocolate-fondue.html">Chocolate Fondue</a></li>
             
-                <li><a href="/avocado-frozen-yogurt.html">Avocado Frozen Yogurt</a></li>
+                <li><a href="/cherry-ricotta.html">Cherry Ricotta Dessert</a></li>
             
         
                 <li><a href='/desserts'>more...</a></li>
@@ -164,6 +166,8 @@ $(document).ready(function(){
             
         
             
+                <li><a href="/peanut-butter-green.html">Green Peanut Butter Smoothie</a></li>
+            
                 <li><a href="/avocado-smoothie.html">Creamy Avocado Smoothie</a></li>
             
         
@@ -179,15 +183,15 @@ $(document).ready(function(){
             
         
             
+                <li><a href="/irish-soda-bread-scones.html">Irish Soda Bread Scones</a></li>
+            
+                <li><a href="/poached-pears-with-yogurt.html">Poached Pears with Yogurt</a></li>
+            
+                <li><a href="/crispy-sweet-potato-skins.html">Crispy Baked Sweet Potatoes</a></li>
+            
+                <li><a href="/cookie-dough-dip.html">Cookie Dough Dip</a></li>
+            
                 <li><a href="/tomato-tarts.html">Tomato Mozzarella tarts</a></li>
-            
-                <li><a href="/bacon-wrapped-figs.html">Dates Wrapped in Bacon stuffed with Cheese</a></li>
-            
-                <li><a href="/zucchini-fries.html">Zucchini fries</a></li>
-            
-                <li><a href="/cheez-its.html">Homemade Cheez-Its</a></li>
-            
-                <li><a href="/pumpkin-bread.html">Pumpkin Bread</a></li>
             
         
                 <li><a href='/snacks'>more...</a></li>
@@ -217,66 +221,132 @@ $(document).ready(function(){
         </ul>
       </li>
     
-      <li class='expanded'><a class='on'>to be tried <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
-        <ul class='submenu'>
-        
-            
-                <li><a href=""></a></li>
-            
-        
-            
-                <li><a href="/peanut-butter-pie.html">Healthy Peanut Butter Pie</a></li>
-            
-                <li><a href="/lasagna.html">Lasagna</a></li>
-            
-                <li><a href="/zucchini-fries.html">Zucchini fries</a></li>
-            
-        
-                <li><a href='/to be tried'>more...</a></li>
-        </ul>
-      </li>
-    
-    </ul>
+    <li><a href="/submit">submit a recipe</a></li>
+   </ul>
+    <form>
+    <input type="text" id='search-input' class="search-field" placeholder="Search" autocomplete=true><a href='/search' id='search-button'><img src='/assets/img/search_icon_white.png'></a>
+    </form>
+</div>
 
+    <div id='content'>
+        <ul id='results-container'></ul>
+<div class='about'>
+<h2 class='title'>About me</h2><br>
+<h3>Lucy is a...</h3>
+<ul>
+    <li>A <a href='http://poems.lucywyman.me'>novice poet</a></li>
+    <li>A native Portlander</li>
+    <li>A college student</li>
+    <li>An avid nap enthusiast</li>
+    <li>A <a href='http://osuosl.org/about/people/lucy-wyman'>front-end engineer</a></li>
+    <li>A runner</li>
+    <li>A weight-lifting instructor</li>
+    <li>An amateur photographer</li>
+    <li>A fashion expert</li>
+    <li>A graduate of Cleveland High School and the International Baccalaureate diploma program</li>
+    <li>A <a href='https://www.youtube.com/watch?v=83DJiJEt_zE'>pianist</a></li>
+    <li>A proud sister</li>
+    <li>A daughter</li>
+    <li>A dancer</li>
+    <li>A maker</li>
+    <li>A <a href='https://www.youtube.com/watch?v=DzSC2__LXk4'>space cowgirl</a></li>
+    <li>A <a href='http://recipes.lucywyman.me'>baker</a></li>
+    <li>A hopeless idealist</li>
+<br><br>
+<img class='portrait' src='/assets/img/portrait.jpg'>
+<h3>Let's talk!</h3>
+<p>Email me at wyman.lucy@gmail.com<br>
+Message lucyw on irc.freenode.net or irc.mozilla.org<br>
+Or checkout my work on <a href='https://github.com/lucywyman'>github</a></p>
+</div>
+
+    </div>
+    <div class='footer'>
+    <p>This site is made by me, <a href='http://lucywyman.me'>Lucy Wyman</a>, and is powered by <a href='http://jekyllrb.com/'>Jekyll</a> and <a href='https://pages.github.com/'>Github Pages</a> (I know, I was lazy, ok?)</p>
     <div class='icons'>
     <a href='https://github.com/lucywyman'><img class='social' src='/assets/img/github-icon.png'></a>
     <a href='http://linkedin.com/pub/lucy-wyman/70/553/6a7/'><img class='social' src='/assets/img/linkedin.png'></a>
     <a href='https://plus.google.com/107251431728646146032/posts'><img class='social' src='/assets/img/google-plus.png'></a>
     </div>
 
+
 </div>
 
-    <div class='content'>
-        <h2 class='title'>About me</h2><hr><br>
-<h3>Lucy is a...</h3>
-<ul>
-    <li> <a href='https://poems.lucywyman.me'>novice poet</a></li>
-    <li> native Portlander</li>
-    <li> college student</li>
-    <li> avid nap enthusiast</li>
-    <li> <a href='http://osuosl.org/about/people/lucy-wyman'>front-end engineer</a></li>
-    <li> runner</li>
-    <li> fashion expert</li>
-    <li> graduate of Cleveland High School and the International Baccalaureate diploma program</li>
-    <li> <a href='https://www.youtube.com/watch?v=83DJiJEt_zE'>pianist</a></li>
-    <li> volunteer at the Oregon Humane Society</li>
-    <li> proud sister</li>
-    <li> daughter</li>
-    <li> dancer</li>
-    <li> <a href='https://www.youtube.com/watch?v=DzSC2__LXk4'>space cowgirl</a></li>
-    <li> <a href='https://github.com/lucywyman/recipes'>baker</a></li>
-    <li> hopeless idealist</li>
-</ul>
-<br><br>
-<h3>Let's talk!</h3>
-<p>Email me at wyman.lucy@gmail.com<br>
-Message lucyw on irc.freenode.net or irc.mozilla.org<br>
-Or checkout my work on <a href='https://github.com/lucywyman'>github</a></p>
 
+<!-- All the yavascripts -->
+    <script>
+    console.log("I");
+        $(document).ready(function(){
+            $('#sidebar').slicknav({
+                label:''
+        });
+    });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    </div>
-    <div class='footer'>
-</div>
+      ga('create', 'UA-48093989-4', 'auto');
+      ga('send', 'pageview');
 
-  </body>
+    </script>
+
+    <script>
+    $(document).ready(function(){  
+    // Expanding navigation bar js
+        $('ul li.expanded > a')
+        .attr('data-active','0')
+        .click(function(event){
+           $('.submuneu').hide();   
+            if($(this).attr('data-active')==0){
+                $(this).parent().find('ul').slideToggle('slow');
+                $(this).attr('data-active','1');
+            }
+            else{
+              $(this).parent().find('ul').slideToggle('slow');
+              $(this).attr('data-active','0');}
+            $('a.on').removeClass("active");
+            $(this).addClass("active");
+        });
+    // Make sidebar full height 
+    if ($(window).width() > 980){
+        var h = document.getElementById("content").offsetHeight;
+        //var m = document.getElementById("menu").offsetHeight;
+        var t = h;
+        document.getElementById("sidebar").style.height = t + "px";
+        }
+    SimpleJekyllSearch.init({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      dataSource: '/search.json',
+      searchResultsTemplate:'<li><a href="{url}">{title}</a></li>',
+      fuzzy: true
+    })
+    $("#search-input").keyup(function(){
+        if($("#search-input").val() != ""){
+            $(".post-list").css("display", "none"); 
+            $(".recipe").css("display", "none"); 
+            $(".about").css("display", "none"); 
+        } else {
+            $(".post-list").css("display", "block");
+            $(".recipe").css("display", "block"); 
+            $(".about").css("display", "block"); 
+        }
+    });
+   });
+    </script>    
+    <!-- Pinterest and Facebook -->
+    <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script> 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </body>
 </html>
