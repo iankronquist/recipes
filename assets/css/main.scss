@@ -107,7 +107,6 @@ ul{
     vertical-align: top;
     display: inline-block;
     background-image: url('/assets/img/wet_snow.png');
-    background-color: $prim; 
     padding: 10px;
     padding-top: 30px;
 
@@ -163,6 +162,20 @@ ul{
 // Slick nav mobile menu
 .slicknav_menu{
     display: none;
+}
+
+.btn{
+    display: block;
+    margin: 10px 0px;
+    padding: 3px;
+    background: $accent;
+    color: $light;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: $hover;
 }
 
 #content{
@@ -291,3 +304,17 @@ form{
     }
     
 } 
+
+@media print{
+    body{
+        color: #fff;
+    }
+
+    #sidebar, .footer, .btn{
+        display: none;
+    }
+    #content{
+        display: block;
+        width: 100%;
+    }
+}

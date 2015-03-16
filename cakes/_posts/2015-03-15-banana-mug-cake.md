@@ -14,7 +14,7 @@ Ingredients:
 * 1/16 tsp salt
 * pinch stevia, or 2 tsp sugar
 * 1 tbsp plus 2 tsp water
-* 1 tbsp overripe mashed banana (Banana-Free Version Here)
+* 1 tbsp overripe mashed banana
 * 1/4 tsp pure vanilla extract
 
 
