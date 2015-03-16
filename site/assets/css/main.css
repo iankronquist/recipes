@@ -84,7 +84,6 @@ ul {
   vertical-align: top;
   display: inline-block;
   background-image: url("/assets/img/wet_snow.png");
-  background-color: #988D72;
   padding: 10px;
   padding-top: 30px; }
   #sidebar a {
@@ -92,6 +91,10 @@ ul {
   #sidebar a:hover {
     cursor: pointer;
     color: #0CA5B0; }
+  #sidebar img {
+    width: 80px;
+    border-radius: 40px;
+    border: none; }
   #sidebar ul {
     display: block;
     padding: 10px; }
@@ -126,6 +129,18 @@ ul {
 
 .slicknav_menu {
   display: none; }
+
+.btn {
+  display: block;
+  margin: 10px 0px;
+  padding: 3px;
+  background: #0CA5B0;
+  color: #FFF;
+  border: none; }
+
+.btn:hover {
+  cursor: pointer;
+  background: rgba(12, 165, 176, 0.5); }
 
 #content {
   width: 80%;
@@ -221,3 +236,13 @@ form .submit:active {
 
   #content {
     width: 95%; } }
+@media print {
+  body {
+    color: #fff; }
+
+  #sidebar, .footer, .btn {
+    display: none; }
+
+  #content {
+    display: block;
+    width: 100%; } }
