@@ -40,7 +40,7 @@ h1{
     font-family: $sans;
     font-size: 36px;}
 h2{
-    font-family: $sans;
+    //font-family: $sans;
     font-size: 22px;}
 h3{
     font-familY: $sans;
@@ -67,7 +67,7 @@ ul{
 .intro{
     text-align: center;
     font-size: 22px;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -116,12 +116,6 @@ ul{
         cursor: pointer;
         color: $accent;}
 
-    img{
-        width: 80px;
-        border-radius: 40px;
-        border: none;
-    }
-
     ul{
         display: block;
         padding: 10px;
@@ -149,20 +143,16 @@ ul{
 }
 
 #search-button{
-    width: 30px;
-    height: auto;
+    height: 24px;
+    width: auto;
     text-align: center;
     margin: 0px;
     display: inline-block;
     background: #ddd;
     border: 1px 1px 1px 0px solid $dark;
     vertical-align: middle;
-        
-    img{
-        width: 80%;
-        margin: 0 auto;
-        border: none;
-    }
+    margin: 0 auto;
+    border: none;
 }
 
 // Slick nav mobile menu
