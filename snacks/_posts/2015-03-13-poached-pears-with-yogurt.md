@@ -6,6 +6,8 @@ fromurl: http://www.skinnytaste.com/2015/01/poached-pears-with-yogurt.html
 time: 35 minutes
 ---
 
+![Poached Pears with Yogurt](/assets/img/pear-yogurt.jpg)
+
 Ingredients:
 ------------
 
@@ -27,3 +29,7 @@ Directions:
 3. Once the pears are tender, remove from heat and let cool.
 4. Over medium-low heat, reduce the remaining poaching liquid to a glaze, about 7 to 8 minutes. Pour over pears. Refrigerate until ready to serve.
 5. To serve, place 1/2 pear on each dish and top with a dollop of yogurt over each.
+
+<br>
+
+![Poached Pears with Yogurt](/assets/img/pear-yogurt2.jpg)

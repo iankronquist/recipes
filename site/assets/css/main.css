@@ -13,6 +13,9 @@ body {
   margin: 0px;
   padding: 0px; }
 
+img {
+  margin: 10px; }
+
 h1, h2, h3, h4, h5, p, a, li, label {
   font-family: "Slabo 27px", serif;
   color: #4E3F30;
