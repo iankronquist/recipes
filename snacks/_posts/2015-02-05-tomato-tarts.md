@@ -6,7 +6,7 @@ fromurl: http://www.bhg.com/recipe/appetizers-snacks/tomato-and-mozzarella-tarts
 time: 30 minutes
 ---
 
-<img src='/assets/img/tomato-slice.png' class='no-border' style='max-width: 300px;'/>
+<img alt='Tomato tarts' src='/assets/img/tomato-slice.png' class='no-border' style='max-width: 300px;'/>
 
 Ingredients:
 ------------

@@ -6,7 +6,7 @@ fromurl: http://www.thecomfortofcooking.com/2012/12/creamy-pumpkin-soup.html
 time: 45 minutes
 ---
 
-<img src='/assets/img/pumpkin-soup-swirl.png' class='no-border' style='max-width: 300px;'/>
+<img alt='Creamy Pumpkin Soup' src='/assets/img/pumpkin-soup-swirl.png' class='no-border' style='max-width: 300px;'/>
 
 Ingredients:
 ------------
