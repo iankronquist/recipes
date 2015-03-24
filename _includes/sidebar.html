@@ -3,6 +3,7 @@
     <li><a href="/">home</a></li>
 <!--<img src='/assets/img/recipes-profile.jpg' class='about-img' />-->
     <li><a href="/about">about me</a></li>
+    <li><a href="/all">all recipes</a></li>
     {% assign sorted_cats = (site.categories | sort:0) %}
     {% for category in sorted_cats %}
       <li class='expanded'><a class='on'>{{ category | first }} <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>

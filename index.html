@@ -15,7 +15,7 @@ submit an issue, or just <a href="https://github.com/lucywyman">see what I do!</
   <br><br>
   <ul class='results' id='results-container'></ul>
   <ul class="post-list" id='post-li'>
-    {% for post in site.posts limit: 2 %}
+    {% for post in site.posts limit: 3 %}
       <li>
         <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         <span class="post-meta">{{ post.date | date: "%m.%e.%Y" }}</span><br>

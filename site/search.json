@@ -1,6 +1,14 @@
 [
     
        {
+         "title"    : "",
+         "category" : "",
+         "url"     : "/initialization.html",
+         "date"     : "2015-03-22 00:00:00 -0700",
+        "content"  : "Ingredients:Directions:"
+       } ,
+   
+       {
          "title"    : "Sautéed Zucchini with Paremsan",
          "category" : "",
          "url"     : "/sauteed-zucchini.html",
@@ -110,6 +118,22 @@
          "url"     : "/broccoli-cheddar-tots.html",
          "date"     : "2015-03-16 00:00:00 -0700",
         "content"  : "Ingredients:  12 ounces broccoli  1 large egg  1/4 cup sliced green onions  2/3 cups shredded cheddar  1/2 cup panko  salt and freshly ground pepperDirections:  Preheat the oven to 400°F. Line a baking sheet with parchment paper and set aside.  Blanch the broccoli in boiling water for 1 minute then immediately shock with cold tap water or an ice bath. Drain very, very well.  Chop finely and mix throughly with the egg, green onions, cheddar, and panko.   Season generously with salt and pepper.   Scoop about 1.5 tablespoons of mix into your hands and shape into a tater-tot shape. It helps if you keep your hands wet while you’re shaping.   Place on your prepared baking sheet. Repeat until all the tots are made.   Bake until golden brown and crispy, 18-20 minutes, turning the sheet half way. Remove from the oven and enjoy hot with extra shichimi togarashi, ketchup or sriracha!"
+       } ,
+   
+       {
+         "title"    : "Turkish Coffee Ice Cream",
+         "category" : "",
+         "url"     : "/turkish-coffee-ice-cream.html",
+         "date"     : "2015-03-15 00:00:00 -0700",
+        "content"  : "Ingredients:  1 1/2 cups water  2 cups white sugar  1 1/2 cups heavy cream  1 1/2 cups milk  6 egg yolks  3 tablespoons instant coffee granules  2 tablespoons finely ground coffee (optional)Directions:  Bring the water and sugar to a boil in a saucepan over high heat until the sugar dissolves and the syrup turns clear.   Pour into a pot that’s in a pot of boiling water along with the cream and milk.   Whisk until the syrup has dissolved into the milk, then whisk in the egg yolks and instant coffee until completely incorporated.  Turn down the heat until the water is simmering.   Cook, stirring constantly until the custard has thickened and will stick to the back of a spoon, about 10 minutes.   Pour through a mesh strainer into a bowl and stir in the coffee grounds.   Refrigerate several hours until cold.  Pour into an ice cream maker and freeze according to manufacturer’s directions."
+       } ,
+   
+       {
+         "title"    : "Rhubarb Vanilla Compote",
+         "category" : "",
+         "url"     : "/rhubarb-vanilla-compote.html",
+         "date"     : "2015-03-15 00:00:00 -0700",
+        "content"  : "Ingredients:  4 cups diced rhubarb  1/2 cup sugar  1/4 teaspoon cinnamon  1/2 teaspoon vanillaDirections:  Combine rhubarb, sugar and cinnamon in a medium saucepan.   Bring to a simmer over medium-high heat; reduce heat to a gentle simmer and cook until the rhubarb begins to break down, about 5 minutes.   Remove from heat and stir in vanilla."
        } ,
    
        {
@@ -530,7 +554,7 @@
    
        {
          "title"    : "Chicken Stir-fry",
-         "category" : "Dinners",
+         "category" : "",
          "url"     : "/stir-fry.html",
          "date"     : "2015-01-21 00:00:00 -0800",
         "content"  : "Ingredients  1 lb. Chicken  2-3 head of broccoli  1 onion  Some cut up carrots (sliced, diced, however you like them.We just cut them into chunks.  2 tbsp minced garlic  Fresh ginger OR 2 tbsp ground ginger  2 tbsp corn starch  A pinch of salt  2 tbsp sesame oil  1/3 cup water  3-4 tbsp vegetable oil (we use canola too)  2 tbsp Soy sauceOptions  Cayenne pepper powder  Red chili flakes  Sesame seeds  Hoisin sauceDirections:  Cut the chicken into bite-sized chunks, dice the onion and broccoli, and cut up your carrots as desired (as well as any other veggies you’d like to use!  Bell peppers are nice).  Heat large skillet or wok on the stove, with vegetable oil in it, to medium-high heat.  Toss in onions, garlic, and ginger  Stir until onions are soft, about 3 minutes  Throw in carrots and broccoli.  Also let them simmer for a few minutes.  Now throw everything else in and cook until chicken is fully cooked, about twenty minutes.Best served over rice or with toast.  Or both over rice AND with toast.  Whatever floats your boat."
@@ -610,7 +634,7 @@
    
        {
          "title"    : "Lucy's Easy Chili",
-         "category" : "Dinners",
+         "category" : "",
          "url"     : "/chili.html",
          "date"     : "2015-01-21 00:00:00 -0800",
         "content"  : "Ingredients  1 can diced, peeled tomatoes  1 can gold corn  1 can black beans  1 onion (diced)  2 tablespoons olive oil  1 tablespoon minced garlic  2 teaspoons paprika  2 teaspoons cayenne pepper  2 teaspoons salt  2 teaspoons black pepper  2 teaspoons garlic powder  2 teaspoons cumin  6 servings of rice   Sour cream and cheese to topAll measurements are approximate – experiment with your spices! These can also be thrown into a slow cookerDirections  Toss olive oil, onions, and garlic into a sauce pan and sautee until onions are translucent.  In a large pot (I actually use a wok) combine all ingredients over medium heat (4 or 5 on most stoves), stirring frequently.    After about ten minutes, turn heat down to 3 and let simmer until everyone is ready to eat! "

@@ -5,9 +5,10 @@ title: Cakes
 ---
 
 <br><br>
+    {% assign posts = site.categories.cakes | sort:'title' %}
 <ul>
-    {% for post in site.categories.cakes %}
-    <li><a href='/{{ post.title }}.html'>{{ post.title }}</a></li>
+    {% for post in posts%}
+    <li><a href='/{{ post.url }}.html'>{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 

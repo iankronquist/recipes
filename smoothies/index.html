@@ -6,8 +6,9 @@ title: Smoothies
 
 <br><br>
 <ul>
-    {% for post in site.categories.smoothies %}
-    <li><a href='/{{ post.title }}.html'>{{ post.title }}</a></li>
+    {% assign posts = site.categories.smoothies | sort:'title' %}
+    {% for post in posts %}
+    <li><a href='/{{ post.url }}.html'>{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 

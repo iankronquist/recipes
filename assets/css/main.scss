@@ -17,7 +17,9 @@ $dark: #4E3F30;
 $menu-y: 50px;
 $footer-y: 100px;
 
-* {margin: 0;} 
+* {
+margin: 0;
+list-style-type: none;} 
 
 html, body {
     height: 100%;

@@ -5,9 +5,10 @@ title: Breakfasts
 ---
 
 <br><br>
+    {% assign posts = site.categories.breakfasts | sort:'title' %}
 <ul>
-    {% for post in site.categories.breakfasts %}
-    <li><a href='/{{ post.title }}.html'>{{ post.title }}</a></li>
+    {% for post in posts %}
+    <li><a href='/{{ post.url }}.html'>{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 
