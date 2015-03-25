@@ -6,6 +6,8 @@ fromurl: http://allrecipes.com/Recipe/Turkish-Coffee-Ice-Cream
 time: 30 minutes
 ---
 
+<img alt='Turkish Coffee Ice Cream' src='/assets/img/turkish-coffee.png' class='no-border' style='max-width: 300px;'/>
+
 Ingredients:
 ------------
 
