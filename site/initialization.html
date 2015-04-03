@@ -8,7 +8,7 @@
   <script src="/assets/jquery/jquery.slicknav.min.js"></script>
   <script src="/assets/js/jekyll-search.js"></script>
 
-  <title>Recipes</title>
+  <title>How to Get Started with Jekyll</title>
   <meta name="description" content="Simple, easy, delicious recipes by me, Lucy Wyman">
 
   <link rel="stylesheet" href="/assets/css/main.css">
@@ -253,6 +253,21 @@
         </ul>
       </li>
     
+      <li class='expanded'><a class='on'>this-site <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
+        <ul class='submenu'>
+        
+            
+                <li><a href=""></a></li>
+            
+        
+            
+                <li><a href="/initialization.html">How to Get Started with Jekyll</a></li>
+            
+        
+                <li><a href='/this-site'>more...</a></li>
+        </ul>
+      </li>
+    
     <li><a href="/submit">submit a recipe</a></li>
    </ul>
     <!-- This form element is only here so I can put a border on the input -->
@@ -264,19 +279,48 @@
     <div id='content'>
         <ul class='results' id='results-container'></ul>
 <div class='recipe print'>
-    <h2 class='title'></h2>
+    <h2 class='title'>How to Get Started with Jekyll</h2>
 <!--    <div class='icons'>
     <a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"  data-pin-shape="round" data-pin-height="32"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_round_red_32.png" /></a>
     <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank"><img src='/assets/img/fb-icon.png' class='social'></a>
     <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://recipes.lucywyman.me" data-via="cookingandcode" data-count="none"><img src='/assets/img/twitter-icon.png' class='social' style='z-index:100;'></a>-->
     
     
+    <p>From: 
+    <a href='http://jekyllrb.com'>http://jekyllrb.com</a>   
+    
+    
     <button class='btn' onclick="print()">Print this Recipe</button>
     <h2 id="ingredients">Ingredients:</h2>
+
+<ul>
+  <li><a href="https://rvm.io/rvm/install">Ruby Version Manager</a></li>
+  <li>Ruby</li>
+  <li>Ruby gems</li>
+  <li>Jekyll</li>
+</ul>
 
 <p><br /></p>
 
 <h2 id="directions">Directions:</h2>
+
+<h2 id="if-you-dont-already-have-ruby">If you don’t already have ruby:</h2>
+
+<ol>
+  <li>Install the <a href="https://rvm.io/rvm/install">Ruby Version Manager</a>. To do this, I would copy-paste the ‘Install RVM Stable with Ruby’ instructions, which is the third command from the top.  Fair Warning: it is going to ask you to curl and pipe to bash.  I’m sorry. If you are truly uncomfortable with this (and I understand if you are), I suggest googling around for alternatives, as I’m sure they exist.</li>
+  <li>Now to  actually install ruby!  Run <code>$ rvm install ruby</code>, or whichever version you’d like. Ruby 1.9.3 has worked very well for me, so it’s the one I’ll recommend here, but I believe 2.1.1 is also popular. Then run <code>$ rvm use ruby --default</code>.</li>
+  <li>Install the current version of rubygems (the ruby package manager): <code>$ rvm rubygems current</code></li>
+</ol>
+
+<h2 id="if-you-already-have-ruby-or-just-installed-it">If you already have ruby (or just installed it):</h2>
+
+<ol>
+  <li>Jekyll is just a ruby gem: <code>$ gem install jekyll</code></li>
+  <li><code>$ jekyll new [SITENAME]</code>. This will automatically <strong>create the directory for the website for you</strong>, so don’t feel the need to create a directory to put your site in, but do cd to the place you want to be the parent directory of your site.</li>
+  <li><code>cd [SITENAME]</code></li>
+</ol>
+
+<p>And you’re done!  Installing ruby is really the hard part here.  Now you’re ready to start your first jekyll site!</p>
 
 </div>
 

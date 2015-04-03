@@ -18,8 +18,7 @@ $menu-y: 50px;
 $footer-y: 100px;
 
 * {
-margin: 0;
-list-style-type: none;} 
+margin: 0;}
 
 html, body {
     height: 100%;
@@ -62,8 +61,14 @@ a{
 
 a:hover {
         color: $hover;}
+
 ul{
     list-style-type: none;}
+code{
+    background: #eee;
+    padding: 2px;
+    font-size: 16px;
+}
 
 .title{
     text-align: center;

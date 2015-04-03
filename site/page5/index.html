@@ -253,6 +253,21 @@
         </ul>
       </li>
     
+      <li class='expanded'><a class='on'>this-site <span style='font-size: 10px; vertical-align: middle;'>&#9660;</span></a>
+        <ul class='submenu'>
+        
+            
+                <li><a href=""></a></li>
+            
+        
+            
+                <li><a href="/initialization.html">How to Get Started with Jekyll</a></li>
+            
+        
+                <li><a href='/this-site'>more...</a></li>
+        </ul>
+      </li>
+    
     <li><a href="/submit">submit a recipe</a></li>
    </ul>
     <!-- This form element is only here so I can put a border on the input -->
@@ -277,16 +292,41 @@ submit an issue, or just <a href="https://github.com/lucywyman">see what I do!</
   <ul class="post-list" id='post-li'>
     
       <li>
-        <h3><a class="post-link" href="/initialization.html"></a></h3>
+        <h3><a class="post-link" href="/initialization.html">How to Get Started with Jekyll</a></h3>
         <span class="post-meta">03.22.2015</span><br>
         
-        <span class="post-meta">From: </span>
+        <span class="post-meta">From: <a href="http://jekyllrb.com">http://jekyllrb.com</a></span>
         
         <h2 id="ingredients">Ingredients:</h2>
+
+<ul>
+  <li><a href="https://rvm.io/rvm/install">Ruby Version Manager</a></li>
+  <li>Ruby</li>
+  <li>Ruby gems</li>
+  <li>Jekyll</li>
+</ul>
 
 <p><br /></p>
 
 <h2 id="directions">Directions:</h2>
+
+<h2 id="if-you-dont-already-have-ruby">If you don’t already have ruby:</h2>
+
+<ol>
+  <li>Install the <a href="https://rvm.io/rvm/install">Ruby Version Manager</a>. To do this, I would copy-paste the ‘Install RVM Stable with Ruby’ instructions, which is the third command from the top.  Fair Warning: it is going to ask you to curl and pipe to bash.  I’m sorry. If you are truly uncomfortable with this (and I understand if you are), I suggest googling around for alternatives, as I’m sure they exist.</li>
+  <li>Now to  actually install ruby!  Run <code>$ rvm install ruby</code>, or whichever version you’d like. Ruby 1.9.3 has worked very well for me, so it’s the one I’ll recommend here, but I believe 2.1.1 is also popular. Then run <code>$ rvm use ruby --default</code>.</li>
+  <li>Install the current version of rubygems (the ruby package manager): <code>$ rvm rubygems current</code></li>
+</ol>
+
+<h2 id="if-you-already-have-ruby-or-just-installed-it">If you already have ruby (or just installed it):</h2>
+
+<ol>
+  <li>Jekyll is just a ruby gem: <code>$ gem install jekyll</code></li>
+  <li><code>$ jekyll new [SITENAME]</code>. This will automatically <strong>create the directory for the website for you</strong>, so don’t feel the need to create a directory to put your site in, but do cd to the place you want to be the parent directory of your site.</li>
+  <li><code>cd [SITENAME]</code></li>
+</ol>
+
+<p>And you’re done!  Installing ruby is really the hard part here.  Now you’re ready to start your first jekyll site!</p>
 
         <br>
       </li>
