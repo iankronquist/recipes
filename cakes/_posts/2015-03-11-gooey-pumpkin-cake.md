@@ -38,4 +38,4 @@ Directions:
 7. Now pour the brown sugar water evenly on top, but do not stir!
 8. Place the pan in the middle of the oven and bake 34 minutes. The top will look like cake… but if you reach your fork down, there will be a layer of sweet pumpkin pudding on the bottom! 
 
-Top with some [homemade whipped cream](http://recipes.lucywyman.me/whipped-cream) for even more yumminess!
+Top with some homemade whipped cream for even more yumminess!

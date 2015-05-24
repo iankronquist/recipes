@@ -9,7 +9,7 @@ time: 2-3 hours
 Ingredients:
 ------------
 
-* 2 `pie crusts <http://recipes.lucywyman.me/pie-crust.html>`_
+* 2 pie crusts
 * 3/4 cup + 1 Tablespoon granulated sugar
 * 6 Tablespoons all-purpose flour
 * 3/4 teaspoon ground cinnamon
@@ -25,7 +25,7 @@ Ingredients:
 Directions:
 -----------
 
-0. `Make the pie crusts <http//recipes.lucywyman.me/pie-crust.html>`_
+0. Make the pie crusts
 1. Preheat oven to 400f.
 2. Whisk sugar, flour, cinnamon, and allspice in a large bowl.
 3. Fold in peaches and blueberries with a wooden spoon or spatula, until coated with sugary-floury-mix

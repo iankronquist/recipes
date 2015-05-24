@@ -1,11 +1,11 @@
 # Site settings
 title: Recipes
-email: wyman.lucy@gmail.com
+email: iankronquist@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: ''
 url: 
 twitter_username: 
-github_username: lucywyman
+github_username: iankronquist
 source: .
 destination: ./site
 layouts: ./layouts

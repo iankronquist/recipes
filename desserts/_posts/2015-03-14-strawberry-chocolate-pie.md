@@ -9,7 +9,7 @@ time: 20 minutes
 Ingredients:
 ------------
 
-* One recipe [basic chocolate pie crust](http://recipes.lucywyman.me/chocolate-pie-crust)
+* One recipe basic chocolate pie crust
 * 2.5 cups strawberries or other berries, fresh or frozen (250g)
 * 1/4 cup plus 2 tbsp cocoa powder
 * 1 package extra firm tofu
